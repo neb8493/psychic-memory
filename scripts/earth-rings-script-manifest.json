@@ -1,0 +1,639 @@
+{
+ "topic": "What if Earth got a ring like Saturn tonight",
+ "genre": "education",
+ "animation_mode": "fully_animated",
+ "channel_type": "explainer",
+ "style": "Pastel Flat 2D",
+ "through_line": {
+  "name": "the ring",
+  "asset": "ring",
+  "progression": "asteroid on approach, shredded into a stream, a thin bright band, a wide glowing arch, a black midnight gap, a dark shadow stripe on the ground, sparks as satellites strike it, streaks of falling debris, worn thin beside the Moon, gone",
+  "resolution": "In the payoff the ring disk pulls itself together into the Moon and modern Earth is shown with no ring at all."
+ },
+ "arc": {
+  "hook": 1,
+  "build": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28
+  ],
+  "turn": 29,
+  "payoff": 30
+ },
+ "blocks": [
+  {
+   "n": 1,
+   "arc_role": "hook",
+   "vo_line": "Earth once had a ring. Four hundred sixty six million years ago a band of rock circled our planet and helped freeze it.",
+   "location": "orbit_space",
+   "through_line_state": "a dim complete band of rock around the equator",
+   "shots": [
+    "WIDE, static: Earth hangs alone in dark space, stars drift, a pale band of rock snaps into place around the equator.",
+    "CU, slow push-in: the band's rocky grains tumble in a slow current, each pebble catching sunlight.",
+    "MEDIUM, overhead: the ancient continents below, twenty one dark dots stamp down one after another along a belt near the equator.",
+    "ECU, macro: frost crystals spread across a patch of ocean and lock it white.",
+    "WIDE, gentle drift: the ringed Earth rotates once, the band's shadow settles as a dark stripe across the south, then holds."
+   ],
+   "assets_used": [
+    "orbit_space",
+    "ring"
+   ]
+  },
+  {
+   "n": 2,
+   "arc_role": "build",
+   "vo_line": "Imagine it returns tonight, identical size and place, except now fourteen thousand satellites and eight billion people sit underneath it.",
+   "location": "equator_rooftop",
+   "through_line_state": "a faint pale line fading in over the city",
+   "shots": [
+    "MEDIUM, low angle: Nia steps to the rooftop railing, city towers glowing behind her, and looks up.",
+    "WIDE, static: the equatorial skyline at night, tiny satellite lights crawl across the sky in staggered lines.",
+    "CU, slow push-in: Nia's eyes widen as a faint pale line fades in across the stars above.",
+    "ECU, macro: one satellite glides past, solar panels catching light, then a second, then a third.",
+    "MEDIUM, gentle drift: the whole rooftop tilts up toward the new line, Nia grips the rail as it settles bright."
+   ],
+   "assets_used": [
+    "equator_rooftop",
+    "nia",
+    "ring",
+    "satellite"
+   ]
+  },
+  {
+   "n": 3,
+   "arc_role": "build",
+   "vo_line": "It begins with an asteroid roughly twelve kilometers across, comparable to the width of a sprawling city, and it never actually hits us.",
+   "location": "orbit_space",
+   "through_line_state": "not yet a ring, a lumpy asteroid on approach",
+   "shots": [
+    "MEDIUM, lateral drift: a grey lumpy asteroid tumbles into frame from the right, trailing dust.",
+    "ECU, macro: pitted craters on its surface roll past, pebbles shake loose and drift.",
+    "WIDE, static: Earth small on the left, the asteroid's curved path arcs toward the planet and bends past its edge.",
+    "CU, slow push-in: the asteroid's leading face brightens as Earth's glow spills over it.",
+    "MEDIUM, gentle drift: the rock slides past Earth without touching, the gap between them shrinks and holds."
+   ],
+   "assets_used": [
+    "orbit_space_close",
+    "asteroid",
+    "ring"
+   ]
+  },
+  {
+   "n": 4,
+   "arc_role": "build",
+   "vo_line": "Every planet has a line called the Roche limit, where gravity tugs the near side of an object harder than its far side.",
+   "location": "science_lab",
+   "through_line_state": "a pale chalk circle drawn around a desk globe",
+   "shots": [
+    "WIDE, static: the lab interior, Theo at a long desk with a desk globe, a big window showing a faint line in the sky.",
+    "CU, slow push-in: Theo's finger traces a chalk circle around the globe at a distance, the circle snaps closed.",
+    "MEDIUM, low angle: a small rubber ball on a string swings toward the globe and visibly stretches as it nears.",
+    "ECU, macro: the ball's near side bulges toward the globe while the far side lags behind.",
+    "MEDIUM, gentle drift: Theo taps the chalk line twice, dust puffs, and the globe settles spinning slowly."
+   ],
+   "assets_used": [
+    "science_lab",
+    "theo",
+    "globe",
+    "ring"
+   ]
+  },
+  {
+   "n": 5,
+   "arc_role": "build",
+   "vo_line": "For a rubble pile asteroid that boundary sits around eighteen thousand kilometers above the ground, and our visitor crosses it at full speed.",
+   "location": "orbit_space",
+   "through_line_state": "the asteroid touching the dashed boundary line",
+   "shots": [
+    "CU, static: a dashed boundary circle glows around Earth, the asteroid's nose crosses it.",
+    "WIDE, slow push-in: the full arc of the path bends inside the dashed line, the rock accelerating along it.",
+    "ECU, macro: a crack races across the asteroid's surface with a sharp snap.",
+    "MEDIUM, lateral drift: the asteroid stretches long like taffy as it swings past the planet.",
+    "CU, gentle drift: two halves separate with a slow shudder and drift apart, then settle."
+   ],
+   "assets_used": [
+    "orbit_space",
+    "asteroid",
+    "ring"
+   ]
+  },
+  {
+   "n": 6,
+   "arc_role": "build",
+   "vo_line": "The rock stretches and tears into billions of fragments that keep orbital speed, so nothing falls and everything spreads sideways.",
+   "location": "orbit_space",
+   "through_line_state": "fragments smearing into a curved stream",
+   "shots": [
+    "MEDIUM, static: the two halves shatter into a spray of thousands of fragments, one burst then another.",
+    "ECU, macro: single pebbles fly sideways along the orbit, none of them dropping toward the planet.",
+    "WIDE, gentle drift: the spray stretches into a long curved stream that begins to wrap around Earth.",
+    "CU, slow push-in: the stream's leading edge meets its own tail and the loop closes.",
+    "MEDIUM, lateral drift: the closed loop of rubble thins and flattens into a plane, then holds."
+   ],
+   "assets_used": [
+    "orbit_space",
+    "orbit_space_close",
+    "asteroid",
+    "ring"
+   ]
+  },
+  {
+   "n": 7,
+   "arc_role": "build",
+   "vo_line": "Within months the debris flattens into a disk over the equator, only ten meters thick, roughly the height of a three story building.",
+   "location": "backyard_dusk",
+   "through_line_state": "a thin bright band completing overhead",
+   "shots": [
+    "WIDE, static: a small backyard at dusk, Nia on a lawn chair beside a telescope, the sky deepening.",
+    "CU, slow push-in: a thin band brightens across the sky above her, edge to edge, in one clean sweep.",
+    "ECU, macro: a side-on view of the band, drawn as a single hairline against the stars.",
+    "MEDIUM, low angle: Nia stands, mouth open, the telescope tilting up beside her.",
+    "WIDE, gentle drift: the band's thinness beside the wide backyard, a three story house next door for scale, settles."
+   ],
+   "assets_used": [
+    "backyard_dusk",
+    "nia",
+    "ring"
+   ]
+  },
+  {
+   "n": 8,
+   "arc_role": "build",
+   "vo_line": "Where you stand decides what you see, and on the equator the ring becomes a thin line straight overhead from east to west.",
+   "location": "equator_rooftop",
+   "through_line_state": "a thin line straight overhead through the zenith",
+   "shots": [
+    "CU, low angle: straight up from the rooftop, the ring is a thin bright line running east to west through the zenith.",
+    "MEDIUM, static: Nia tilts her head fully back, hair falling, the line reflected in her glasses.",
+    "WIDE, gentle drift: the equatorial city under one thin line, like a laser drawn across the sky.",
+    "ECU, macro: the line's edge, tiny tumbling grains barely visible in a row.",
+    "MEDIUM, slow push-in: Nia raises a hand and lines up her thumb with the band, then lowers it as the frame settles."
+   ],
+   "assets_used": [
+    "equator_rooftop",
+    "nia",
+    "ring"
+   ]
+  },
+  {
+   "n": 9,
+   "arc_role": "build",
+   "vo_line": "Travel north to forty one degrees latitude and the geometry changes, turning the ring into a wide glowing arch across the southern sky.",
+   "location": "north_city_street",
+   "through_line_state": "a wide glowing arch low in the southern sky",
+   "shots": [
+    "WIDE, static: a snowy northern street at night, apartment blocks, a wide glowing arch low in the southern sky.",
+    "MEDIUM, low angle: Theo in a puffy coat steps out of a doorway and stops mid-step.",
+    "CU, slow push-in: his breath fogs as his eyes follow the arch from one rooftop to the other.",
+    "ECU, macro: the arch's inner edge, a soft glow spilling over snow on a car roof.",
+    "WIDE, gentle drift: the arch climbs higher than the Moon ever sits in winter, street lamps flicker, then hold."
+   ],
+   "assets_used": [
+    "north_city_street",
+    "theo",
+    "ring"
+   ]
+  },
+  {
+   "n": 10,
+   "arc_role": "build",
+   "vo_line": "Past sixty degrees the arch sits low, and it glows all night because Saturn's rings reflect four times more sunlight than the Moon.",
+   "location": "glacier_valley",
+   "through_line_state": "a low flat arch hugging the horizon",
+   "shots": [
+    "WIDE, static: a frozen valley under a starry sky, the ring a low flat arch hugging the horizon.",
+    "CU, slow push-in: the arch's glow lays a pale stripe across the ice field.",
+    "MEDIUM, lateral drift: a split comparison, the small Moon rising on one side, the arch shining brighter on the other.",
+    "ECU, macro: reflected light glints in a crack in the ice, then brightens as the arch rises a little.",
+    "WIDE, gentle drift: the whole valley lit by ring light, shadows of ice blocks stretch long and settle."
+   ],
+   "assets_used": [
+    "glacier_valley",
+    "ring"
+   ]
+  },
+  {
+   "n": 11,
+   "arc_role": "build",
+   "vo_line": "Earth's ring would be rubble and dust instead of ice, dimmer than Saturn's, yet bright enough to illuminate an entire night like moonlight.",
+   "location": "science_lab",
+   "through_line_state": "a rocky band outside the window lighting the room",
+   "shots": [
+    "MEDIUM, static: Theo sets two sample jars on the desk, one of grey grit, one of ice chips.",
+    "ECU, macro: the ice jar catches the lamp and flares bright, the grit jar glows softly.",
+    "CU, low angle: Theo slides the grit jar forward and taps it, dust settles inside.",
+    "WIDE, gentle drift: the lab window, the ring outside dimmer than a full Moon but lighting the room.",
+    "MEDIUM, slow push-in: Theo switches off the desk lamp and the room stays lit by the band outside, holds."
+   ],
+   "assets_used": [
+    "science_lab",
+    "theo",
+    "asteroid",
+    "ring"
+   ]
+  },
+  {
+   "n": 12,
+   "arc_role": "build",
+   "vo_line": "There is one strange exception, since around midnight on the equator Earth's own shadow falls across the ring directly above your head.",
+   "location": "equator_rooftop",
+   "through_line_state": "a black bite eaten out of the ring overhead",
+   "shots": [
+    "ECU, macro: a clock face on Nia's wrist ticks to midnight.",
+    "MEDIUM, low angle: Nia looks straight up, the ring bright overhead.",
+    "WIDE, static: Earth's shadow drawn as a dark cone sweeping across the sky, swallowing the overhead segment.",
+    "CU, slow push-in: the ring directly above goes black while both horizons keep glowing.",
+    "MEDIUM, gentle drift: Nia's face lit only from the sides, the dark gap holding overhead."
+   ],
+   "assets_used": [
+    "equator_rooftop_lateral",
+    "nia",
+    "ring"
+   ]
+  },
+  {
+   "n": 13,
+   "arc_role": "build",
+   "vo_line": "The brightest object in the entire sky goes completely black overhead every single night, and yet the ring is not only above you.",
+   "location": "equator_rooftop",
+   "through_line_state": "the black gap at the top of the arc, its shadow on the streets",
+   "shots": [
+    "MEDIUM, lateral drift: a side view along the rooftop railing, the ring arcing overhead with a dark bite at its top.",
+    "CU, static: Nia checks the time again, shrugs, and points down at the rooftop floor.",
+    "WIDE, high angle: from above the rooftop, the dark ring shadow crawling across the city streets below.",
+    "ECU, macro: the shadow's edge slides over a rooftop water tank.",
+    "MEDIUM, slow push-in: Nia steps into the shadow band on the roof and stops, settles."
+   ],
+   "assets_used": [
+    "equator_rooftop",
+    "equator_rooftop_lateral",
+    "nia",
+    "ring"
+   ]
+  },
+  {
+   "n": 14,
+   "arc_role": "build",
+   "vo_line": "Earth is tilted twenty three point four degrees, which creates our seasons, and a ring above the equator never aligns with the Sun.",
+   "location": "science_lab",
+   "through_line_state": "a paper ring around a tilted desk globe",
+   "shots": [
+    "CU, static: Theo's hands tilt the desk globe over, a paper ring snapped around its middle.",
+    "MEDIUM, low angle: a desk lamp stands in for the Sun, the globe's tilt visible against its light.",
+    "ECU, macro: the paper ring's edge never lines up with the lamp, light cuts across it at an angle.",
+    "WIDE, gentle drift: the whole desk setup, globe orbiting the lamp on a slow turntable.",
+    "CU, slow push-in: the ring's shadow lands as a thin dark stripe on the globe's lower half, holds."
+   ],
+   "assets_used": [
+    "science_lab_reverse",
+    "theo",
+    "globe",
+    "ring"
+   ]
+  },
+  {
+   "n": 15,
+   "arc_role": "build",
+   "vo_line": "In June the north leans toward the Sun, sunlight arrives from above the ring plane, and the shadow lands on the southern hemisphere.",
+   "location": "orbit_space",
+   "through_line_state": "a dark shadow stripe across the southern hemisphere",
+   "shots": [
+    "MEDIUM, static: Earth tilted, sunlight pouring in from the upper left across the ring plane.",
+    "ECU, macro: light glances across the ring's top face, grains lighting one by one.",
+    "WIDE, slow push-in: the ring's shadow drops onto the southern hemisphere as a wide dark stripe.",
+    "CU, lateral drift: the stripe crossing an iced southern coastline.",
+    "MEDIUM, gentle drift: a small sun symbol stamps into the upper left corner of space, the stripe holding."
+   ],
+   "assets_used": [
+    "orbit_space_pole",
+    "ring"
+   ]
+  },
+  {
+   "n": 16,
+   "arc_role": "build",
+   "vo_line": "Southern winter gets a second layer of darkness over the normal one, then in December everything flips and the north takes its turn.",
+   "location": "orbit_space",
+   "through_line_state": "the shadow stripe flipping to the north",
+   "shots": [
+    "CU, static: Earth swings around the far side of its orbit, the tilt now pointing away.",
+    "WIDE, gentle drift: light arrives from below the ring plane, the dark stripe leaps to the northern hemisphere.",
+    "ECU, macro: the shadow edge crosses a snow covered coastline in the north.",
+    "MEDIUM, lateral drift: the southern stripe fades while the northern stripe darkens, one then the other.",
+    "CU, slow push-in: the northern stripe widens a little and holds."
+   ],
+   "assets_used": [
+    "orbit_space",
+    "orbit_space_pole",
+    "ring"
+   ]
+  },
+  {
+   "n": 17,
+   "arc_role": "build",
+   "vo_line": "The shadow reaches widest and farthest from the equator exactly at the solstices, so deep winter also becomes the darkest stretch of shade.",
+   "location": "north_city_street",
+   "through_line_state": "a broad shadow band down the whole street",
+   "shots": [
+    "MEDIUM, static: Theo shovels snow from a doorstep, the arch overhead casting a broad shadow band down the street.",
+    "ECU, macro: a thermometer's marker slides down, then down again.",
+    "CU, low angle: Theo pulls his scarf tighter and looks up at the band's edge.",
+    "WIDE, high angle: the street from above, the shadow band at its widest, streetlights on at midday.",
+    "MEDIUM, slow push-in: Theo plants the shovel, snow stops falling, the shadow holds."
+   ],
+   "assets_used": [
+    "north_city_street_high",
+    "theo",
+    "ring"
+   ]
+  },
+  {
+   "n": 18,
+   "arc_role": "build",
+   "vo_line": "This is not a guess, because in two thousand twenty four a Monash University team examined twenty one craters from an ancient bombardment.",
+   "location": "science_lab",
+   "through_line_state": "twenty one red dots in a belt on the desk globe",
+   "shots": [
+    "CU, static: Theo presses a red dot onto the desk globe, then another, then a third.",
+    "WIDE, lateral drift: the reverse side of the lab, a wall screen showing the globe outline, dots stamping down one by one.",
+    "ECU, macro: a dot lands with a soft stamp right beside the equator line.",
+    "MEDIUM, low angle: Theo steps back and counts on his fingers, nodding.",
+    "CU, slow push-in: the completed cluster of dots on the globe, all in one belt, holds."
+   ],
+   "assets_used": [
+    "science_lab",
+    "science_lab_reverse",
+    "theo",
+    "globe",
+    "ring"
+   ]
+  },
+  {
+   "n": 19,
+   "arc_role": "build",
+   "vo_line": "Every crater sits within thirty degrees of the equator, though over seventy percent of continental crust lies outside that band.",
+   "location": "ancient_sea_shore",
+   "through_line_state": "the old ring bright over a shallow sea, shedding rocks",
+   "shots": [
+    "WIDE, static: an ancient shallow sea coast, rounded strange plants, the old ring bright across the sky.",
+    "CU, slow push-in: a glowing fragment streaks down and slams into the shallows with a splash.",
+    "ECU, macro: a second impact ripple spreads through the water.",
+    "MEDIUM, high angle: from above the coastline, craters pocking the shore in a band, one then another.",
+    "WIDE, gentle drift: the belt of craters across the continent while the land far to the north stays untouched, holds."
+   ],
+   "assets_used": [
+    "ancient_sea_shore",
+    "asteroid",
+    "ring"
+   ]
+  },
+  {
+   "n": 20,
+   "arc_role": "build",
+   "vo_line": "Random strikes never cluster like that, but ring fallout does, and late in that ring's life the planet slid into a deep freeze.",
+   "location": "ancient_sea_shore",
+   "through_line_state": "the old ring thinner, frost creeping under it",
+   "shots": [
+    "MEDIUM, static: the shallow sea under the ring, another fragment falls, then the water goes still.",
+    "ECU, macro: frost crystals crawl across the surface of the water, locking it.",
+    "CU, low angle: the ring overhead, noticeably thinner, its shadow creeping across the beach.",
+    "WIDE, gentle drift: the shoreline freezing from the south, ice climbing the rocks.",
+    "MEDIUM, slow push-in: the frozen shallows under the thinning band, snow starts to fall, settles."
+   ],
+   "assets_used": [
+    "ancient_sea_shore",
+    "ring"
+   ]
+  },
+  {
+   "n": 21,
+   "arc_role": "build",
+   "vo_line": "The Hirnantian glaciation began four hundred forty five million years ago, among the coldest stretches in five hundred million years.",
+   "location": "glacier_valley",
+   "through_line_state": "the ring a faint thread above deep ice",
+   "shots": [
+    "CU, static: a wall of blue ice grinds forward, cracking.",
+    "WIDE, gentle drift: the valley buried under ice, the ring a faint thread above.",
+    "ECU, macro: a frozen fern trapped inside the ice.",
+    "MEDIUM, lateral drift: ice blocks tumble from the glacier face, one after another, splashing.",
+    "CU, slow push-in: the faint ring thread above the ice field, holds."
+   ],
+   "assets_used": [
+    "glacier_valley_close",
+    "ring"
+   ]
+  },
+  {
+   "n": 22,
+   "arc_role": "build",
+   "vo_line": "A modern ring means colder longer winters in both hemispheres, and the debris overhead soon becomes a bigger problem than the cold.",
+   "location": "north_city_street",
+   "through_line_state": "the modern ring with the first streaks of falling debris",
+   "shots": [
+    "MEDIUM, static: Theo scrapes ice from a car windshield in dim daylight, the ring band above.",
+    "ECU, macro: a bright streak crosses the sky and fades, then a second.",
+    "CU, low angle: Theo squints up as sparks flicker along the ring's inner edge.",
+    "WIDE, high angle: the street below, snow piled high, more streaks raining across the sky.",
+    "MEDIUM, slow push-in: Theo's scraper pauses mid stroke, a streak reflected in the glass, holds."
+   ],
+   "assets_used": [
+    "north_city_street",
+    "north_city_street_high",
+    "theo",
+    "ring"
+   ]
+  },
+  {
+   "n": 23,
+   "arc_role": "build",
+   "vo_line": "Right now over fourteen thousand active satellites circle Earth, and most of them orbit five hundred kilometers up, which is inside the ring.",
+   "location": "control_room",
+   "through_line_state": "the ring slicing across a wall display of satellites",
+   "shots": [
+    "WIDE, static: a control room, curved wall display of Earth ringed by thousands of tiny satellite dots.",
+    "CU, slow push-in: the ring drawn across the display slices straight through the lowest layer of dots.",
+    "MEDIUM, low angle: Theo at a console, hands hovering, staring at the display.",
+    "ECU, macro: a satellite model on the desk, solar panels folding out with a click.",
+    "MEDIUM, gentle drift: the display's dots clustering just above the surface, the ring band overlapping them, holds."
+   ],
+   "assets_used": [
+    "control_room",
+    "theo",
+    "satellite",
+    "ring"
+   ]
+  },
+  {
+   "n": 24,
+   "arc_role": "build",
+   "vo_line": "Ring particles move near eight kilometers per second, and a satellite on a polar orbit crosses that ring plane twice every ninety minutes.",
+   "location": "orbit_space",
+   "through_line_state": "the ring plane with a satellite diving through it",
+   "shots": [
+    "CU, static: a satellite races along a polar path, panels gleaming.",
+    "WIDE, lateral drift: the polar orbit drawn as a loop over both poles, crossing the flat ring twice.",
+    "ECU, macro: ring grains streaming sideways at speed, blurred.",
+    "MEDIUM, slow push-in: the satellite dips through the ring plane, grains whipping past it.",
+    "CU, gentle drift: it emerges on the far side, a panel scratched, and holds."
+   ],
+   "assets_used": [
+    "orbit_space_pole",
+    "satellite",
+    "ring"
+   ]
+  },
+  {
+   "n": 25,
+   "arc_role": "build",
+   "vo_line": "A grain of sand at that speed hits like a bullet, a fist sized rock destroys a spacecraft, and internet constellations go first.",
+   "location": "orbit_space",
+   "through_line_state": "sparks along the ring where satellites strike it",
+   "shots": [
+    "ECU, macro: a single grain of sand flies at the camera and snaps past.",
+    "MEDIUM, static: the grain punches a neat hole through a satellite panel with a spark.",
+    "CU, slow push-in: a fist sized rock tumbles in and the satellite bursts into pieces.",
+    "WIDE, gentle drift: a whole shell of tiny satellite lights flickers out one by one along the ring.",
+    "MEDIUM, lateral drift: debris joins the ring's stream, the band slightly thicker, holds."
+   ],
+   "assets_used": [
+    "orbit_space_close",
+    "satellite",
+    "ring"
+   ]
+  },
+  {
+   "n": 26,
+   "arc_role": "build",
+   "vo_line": "Weather satellites fall silent, and the navigation fleet twenty thousand kilometers up sits at the ring's outer edge, under fire.",
+   "location": "control_room",
+   "through_line_state": "the ring's outer edge touching the navigation shell on the display",
+   "shots": [
+    "MEDIUM, static: Theo watches weather map screens flicker to grey, one after another.",
+    "ECU, macro: a phone on the console shows a spinning location marker that never locks.",
+    "CU, low angle: Theo's reflection in the dark screen as more dots wink out.",
+    "WIDE, slow push-in: the wall display, a second shell of satellites sitting right at the ring's outer edge, sparks flickering across it.",
+    "MEDIUM, gentle drift: Theo sets the phone face down, the display holding."
+   ],
+   "assets_used": [
+    "control_room",
+    "theo",
+    "ring"
+   ]
+  },
+  {
+   "n": 27,
+   "arc_role": "build",
+   "vo_line": "Geostationary satellites near thirty six thousand kilometers stay safe, but every rocket that serves them must punch through the ring to get there.",
+   "location": "launch_pad",
+   "through_line_state": "a thin edge-on ring line above the pad, pierced by a rocket",
+   "shots": [
+    "WIDE, static: a snowy launch pad at high latitude, a rocket standing tall, the ring a thin edge-on line near the horizon.",
+    "CU, slow push-in: Theo in a parka checks a handheld gauge and gives a thumbs up.",
+    "MEDIUM, low angle: the rocket's engines ignite with a roar and it lifts, snow blasting outward.",
+    "ECU, macro: the rocket's nose pierces the thin ring line, grains scattering off it.",
+    "WIDE, gentle drift: the exhaust trail bends steeply past the ring, a tiny satellite dot separating high above, holds."
+   ],
+   "assets_used": [
+    "launch_pad",
+    "theo",
+    "rocket",
+    "ring"
+   ]
+  },
+  {
+   "n": 28,
+   "arc_role": "build",
+   "vo_line": "Rings never last, so as the inner edge brushes the atmosphere the grains burn as shooting stars, every night for millions of years.",
+   "location": "tropical_plaza",
+   "through_line_state": "the ring shedding bright streaks over a tropical city",
+   "shots": [
+    "WIDE, static: a tropical city plaza at night, palm trees, a crowd, the ring overhead shedding bright streaks.",
+    "MEDIUM, low angle: Nia among the crowd, every face tipped up.",
+    "ECU, macro: a streak flares, splits, and fades in one breath.",
+    "CU, slow push-in: Nia counts streaks on her fingers and gives up, laughing.",
+    "WIDE, gentle drift: dozens of streaks at once over the plaza, the crowd's shadows shifting with each flash, holds."
+   ],
+   "assets_used": [
+    "tropical_plaza",
+    "nia",
+    "ring"
+   ]
+  },
+  {
+   "n": 29,
+   "arc_role": "turn",
+   "vo_line": "Our Moon sits four hundred thousand kilometers away, beyond that boundary, but four and a half billion years ago it was a ring.",
+   "location": "backyard_dusk",
+   "through_line_state": "the ring worn thin beside a bright rising Moon",
+   "shots": [
+    "CU, static: a large rock lands on the lawn with a thud beside Nia's chair, smoking.",
+    "MEDIUM, low angle: Nia backs away, then looks past the thin ring to the rising Moon.",
+    "ECU, macro: the Moon's craters, calm and grey, filling the telescope eyepiece view.",
+    "WIDE, gentle drift: the backyard with the dashed boundary circle drawn faintly in the sky, the Moon far outside it.",
+    "CU, slow push-in: Nia's hand rests on the telescope, her eyes on the Moon, holds."
+   ],
+   "assets_used": [
+    "backyard_dusk",
+    "nia",
+    "asteroid",
+    "ring"
+   ]
+  },
+  {
+   "n": 30,
+   "arc_role": "payoff",
+   "vo_line": "A Mars sized body struck the young Earth, the debris spread into a disk that pulled itself into the Moon you see tonight.",
+   "location": "orbit_space",
+   "through_line_state": "the ring disk gathering itself into the Moon, Earth left ringless",
+   "shots": [
+    "MEDIUM, static: a Mars sized body slams into the young glowing Earth with a silent flash.",
+    "WIDE, lateral drift: molten debris sprays out and wraps into a glowing disk around the planet.",
+    "ECU, macro: glowing droplets clump together, one then another, snapping into a ball.",
+    "CU, slow push-in: the disk thins to nothing as the ball rounds off into the Moon.",
+    "WIDE, gentle drift: modern Earth with no ring, the full Moon rising beside it, holds still."
+   ],
+   "assets_used": [
+    "orbit_space_close",
+    "ring"
+   ]
+  }
+ ],
+ "sources": [
+  "https://www.monash.edu/science/news-events/news/2024/earth-may-have-had-a-ring-system-466-million-years-ago",
+  "https://phys.org/news/2024-09-earth-million-years.html",
+  "https://eos.org/articles/a-close-asteroid-encounter-may-have-once-given-earth-a-ring",
+  "https://www.space.com/ancient-earth-ring-system-asteroid-breakup",
+  "https://www.skyatnightmagazine.com/space-science/roche-limit",
+  "https://science.nasa.gov/resource/saturns-rings-2/",
+  "https://www.planetary.org/articles/20130626-earths-skies-saturns-rings",
+  "https://www.esa.int/Enabling_Support/Space_Transportation/Types_of_orbits",
+  "https://orbitalradar.com/how-many-satellites-in-orbit",
+  "https://www.astronomy.com/science/the-moon-may-have-formed-just-hours-after-giant-impact/",
+  "https://www.universetoday.com/articles/moon-albedo",
+  "https://www.scienceabc.com/nature/universe/what-if-earth-had-saturn-like-rings-equator-climate-thea"
+ ]
+}

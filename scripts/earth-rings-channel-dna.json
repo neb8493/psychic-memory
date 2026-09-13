@@ -1,0 +1,151 @@
+{
+ "channel_type": "explainer",
+ "motion_mode": "animated",
+ "talking_characters": false,
+ "style": {
+  "name": "Pastel Flat 2D",
+  "preset_id": "d0708b4f-a134-40f7-9884-9ad830904e71",
+  "style_key_urls": [
+   "https://d8j0ntlcm91z4.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/hf_20260913_160232_8aa52e97-55e5-4925-b7f1-a5ee85ed3c78.png"
+  ],
+  "formula_file": "references/kids-styles.md \u00a72 Pastel Flat 2D",
+  "palette_lock": "pastel palette of the reference images (pink / baby blue / mint / sandy yellow / lavender), outlines darker-shade never black"
+ },
+ "voice": {
+  "voice_id": "d8ba9f14-8a24-44db-932b-99e16c45bd32",
+  "voice_type": "preset",
+  "name": "Cillian"
+ },
+ "clip_model": "seedance_2_0 @ 1080p 16:9, 10 s blocks (user-specified; the workflow default is minimax_h3 2K)",
+ "aspect": "16:9",
+ "subtitles": false,
+ "music_bed": "generated instrumental, ducked under narration",
+ "assets": [
+  {
+   "name": "nia",
+   "kind": "character",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/hf_20260913_161103_a8e7fa4b-bd0f-407e-adfa-38f835089cb8.png"
+  },
+  {
+   "name": "theo",
+   "kind": "character",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/hf_20260913_161104_e6d65e98-9f09-4f74-8154-94edb9ec6305.png"
+  },
+  {
+   "name": "ring",
+   "kind": "prop",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/hf_20260913_161103_4d4283cb-19f5-44cd-8597-de115daa865e.png"
+  },
+  {
+   "name": "asteroid",
+   "kind": "prop",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/hf_20260913_161103_47cfd6a6-8c09-4a5b-bd70-81a82ee29e4c.png"
+  },
+  {
+   "name": "satellite",
+   "kind": "prop",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/hf_20260913_161104_416f817a-5656-44c1-9d84-e65d96e6ab97.png"
+  },
+  {
+   "name": "rocket",
+   "kind": "prop",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/hf_20260913_161104_cab9409c-cac0-4ee5-86e5-e2ad73bb38fb.png"
+  },
+  {
+   "name": "globe",
+   "kind": "prop",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/hf_20260913_161104_acdbc8b1-83cb-4a04-824d-f21bf8b8c8ce.png"
+  },
+  {
+   "name": "orbit_space",
+   "kind": "location",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/hf_20260913_161103_e8f0fbae-9a5b-4d4f-959a-10833121e8bd.png"
+  },
+  {
+   "name": "orbit_space_close",
+   "kind": "location",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/hf_20260913_161104_30ca4f20-8c14-4ad6-91ff-6d95291b06ca.png"
+  },
+  {
+   "name": "orbit_space_pole",
+   "kind": "location",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/hf_20260913_161104_0d38e276-c77d-4cf1-9fc8-7dae2a3db3f7.png"
+  },
+  {
+   "name": "equator_rooftop",
+   "kind": "location",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/hf_20260913_161104_68d98203-3558-4631-8004-88a6ece8cf7e.png"
+  },
+  {
+   "name": "equator_rooftop_lateral",
+   "kind": "location",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/hf_20260913_161104_bffe9002-f3c5-4422-8b85-60f9483f1066.png"
+  },
+  {
+   "name": "north_city_street",
+   "kind": "location",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/hf_20260913_161239_e2d0851a-c481-47a3-9312-53cd66cc06ff.png"
+  },
+  {
+   "name": "north_city_street_high",
+   "kind": "location",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/hf_20260913_161239_75d1c1ef-a129-4a27-b61c-8b07d6756515.png"
+  },
+  {
+   "name": "science_lab",
+   "kind": "location",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/hf_20260913_161339_12d5fc82-c545-4403-882e-83d842da0999.png"
+  },
+  {
+   "name": "science_lab_reverse",
+   "kind": "location",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/hf_20260913_161239_711f9e42-0652-4215-9142-2149c07b7ac9.png"
+  },
+  {
+   "name": "backyard_dusk",
+   "kind": "location",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/hf_20260913_161239_b2fe1fc1-2faf-4130-8390-6c8c4ce4a87c.png"
+  },
+  {
+   "name": "glacier_valley",
+   "kind": "location",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/hf_20260913_161239_ee728be8-e903-45c5-9bf6-e73185382606.png"
+  },
+  {
+   "name": "glacier_valley_close",
+   "kind": "location",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/hf_20260913_161239_02bca61c-ea4a-4f4c-a16c-a06811446691.png"
+  },
+  {
+   "name": "ancient_sea_shore",
+   "kind": "location",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/hf_20260913_161239_cfb4f3e4-0d74-4865-9827-532438d0ad8a.png"
+  },
+  {
+   "name": "control_room",
+   "kind": "location",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/hf_20260913_161239_9809a8ec-5e6f-42ab-aade-384d6480950e.png"
+  },
+  {
+   "name": "launch_pad",
+   "kind": "location",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/hf_20260913_161239_45b7c53a-f509-44c2-8674-1836c1834c29.png"
+  },
+  {
+   "name": "tropical_plaza",
+   "kind": "location",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/hf_20260913_161239_f4e11e16-e55d-4824-b6fe-8fe7d9e3d4d9.png"
+  }
+ ],
+ "deliverables": {
+  "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/252458c9-c092-4430-8d2a-869738351130.mp4",
+  "thumbnail": "https://d2ol7oe51mr4n9.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/2c33b86e-0dd6-4b23-8db7-6bc3d4de2dd1.png",
+  "hosted_script_manifest": "https://d2ol7oe51mr4n9.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/e7953835-9e73-4f39-b88f-a973d85db97d.json"
+ },
+ "episode": {
+  "title": "Earth Gets a Ring",
+  "hook_title": "EARTH GETS A RING",
+  "duration_s": 300,
+  "blocks": 30
+ }
+}
