@@ -97,88 +97,99 @@ Nothing is at stake. No villain, no jump, no fast cut.
 
 ---
 
-## 7. Character bible (pulled from your Higgsfield workspace)
+## 7. Character bible
 
-Everything below comes from your saved Elements and the prompts in your generation history,
-so the script only asks for poses and expressions the locked designs already support.
+Combined from your notes and your Higgsfield workspace. The script only asks for poses and
+expressions the locked designs already support.
+
+**World rule:** this is a new channel. Jack and Lexie do not share a world with the vehicle series.
+No talking vehicles, no crossover cameos. Any vehicle on screen is a plain background object.
 
 **Style key (both dogs):** retro 1960s limited-animation flat vector cel art. Flat fills, no
-shading, no gradients, no texture, one uniform thin dark-brown outline on characters and
-backgrounds alike. Backgrounds simple and stylised in flat muted retro colors. Existing scenes
-were built on vertical background plates (porch, sidewalk, green patch, corner store, back alley).
+shading, no gradients, one uniform thin dark-brown outline on characters and backgrounds alike.
+Simple stylised backgrounds in flat muted retro colors, biased toward blue, yellow and cream.
 
-**Jack** (Element `Jack-toon`, id `329d3592-88f5-4db0-97e7-6687153a6ebd`)
-- Tall, slim, leggy black dog with tan points: tan muzzle underside and chin, one pointed tan
-  chest bib, tan cuffs on the lower front legs, tan inside the hind legs, two tan oval eyebrow spots.
-- Long slender snout, soft drop ears that always hang down, long low tail with an upward tip, red collar.
-- Never stocky, thick-necked or guard-dog heavy. Head top sits just below fence-picket height.
-- Default read: gentle and slightly anxious. Brows raised in a worried arch, mouth closed.
-- Poses that already work: quiet pride looking up at the ball, big happy open-mouth grin (no teeth)
-  with the ball in his mouth, extended gallop, skidding to a stop with paws braced, comic overshoot
-  looking back over his shoulder, sitting upright on his haunches watching Lexie.
-- Real-dog note: about 65 lbs, amber eyes, "Jackie" as a nickname.
+**Jack, "Jackie"** (Element `Jack-toon`, id `329d3592-88f5-4db0-97e7-6687153a6ebd`)
+- Medium-size mix, 50% Australian Shepherd, 30% Labrador, 20% Weimaraner. About 65 lbs, long legs,
+  short black coat with Doberman-style tan on the muzzle, chest bib, paws and eyebrow spots.
+- Cartoon design: tall, slim, leggy, long slender snout, soft drop ears, long low tail with an
+  upward tip, red collar. Never stocky or thick-necked.
+- Personality: anxious, extremely loving, goofy, protective of his humans. Takes charge with Lexie
+  and playfully bumps and shoulders into her.
+- Signature move: playing with a bouncing tennis ball.
+- Homecoming: goes crazy happy and gently mouths his human's arms to say he missed them.
+- Default read: gentle, brows in a worried arch, mouth closed. Goofy mode: big open grin, no teeth,
+  ears flying, legs everywhere.
 
 **Lexie** (Element `Lexie-toon`, id `0503e286-2d0e-4b4b-b6aa-099a95ec40ad`)
-- Small, squat, low-slung tan Puggle. Oversized round head, small subtle lighter patch on the
-  crown, very short pushed-in muzzle with grizzled grey chin, dark mask rings around both eyes.
-- Long soft brown drop ears that ALWAYS hang down past the jaw, never perk or go triangular.
-  Barrel body, stubby legs, tail curled over the back, dark on top and cream underneath, teal collar.
-- About half Jack's height and two thirds his length.
+- Puggle (Beagle/Pug), about 30 lbs, low to the ground. Brown coat, dark rings around the eyes
+  like mascara, short muzzle, grizzled grey chin, long soft drop ears, slightly curled tail with
+  black fur at the end, teal collar.
+- Personality: a barker, barks at everything. Stubborn, but always does what is asked after a
+  pause. A little envious of Jack, and when she has had enough of him she pushes back.
+- Signature moves: scratching and barking.
+- Homecoming: hops on her back legs, front paws up on her human's legs, looks up and barks.
 - Critical expression rule: her eye mask makes "angry" the default read. Every open-mouth pose
-  must say eager or hopeful, brows raised high in the MIDDLE, eyes big round and bright, no teeth.
-- Poses that already work: up on hind legs reaching hopefully, sneaky stalking crouch, tight
-  fast turn cutting the inside line, gleeful victorious gallop, mid-air scramble, "already scheming"
-  trot, indignant scrambling run when she falls behind.
-- Real-dog note: about 30 lbs, skeptical half-lidded look in photos.
+  must say eager or hopeful, brows raised high in the MIDDLE, eyes big and round, no teeth.
+  Ears always hang down past the jaw and never perk.
+- Model-sheet note: your sheet describes the tail as dark along the top of the curl and cream
+  underneath. Your notes say black at the end. Worth one pass on the sheet so the tip reads black.
 
-**The dynamic the art already tells:** Jack is the bigger, faster, gentler one who worries and
-overshoots. Lexie is the small schemer who wants the ball more than anyone and usually wins by
-cunning. That maps onto the channel's Pluto and Blue pairing with Jack as the anxious dog the
-channel exists for and Lexie as the comic engine.
+**Both**
+- Food-obsessed. Go crazy when food or a treat appears. Food beats are the guaranteed laugh.
+- Competitive but inseparable. Apart for long, they are subdued. Reunited, they explode into a
+  chase around the house: Jack takes off, Lexie chases.
 
-**Palette note for the dog audience.** Your locked style uses muted retro colors. Keep it, but
-bias every background toward sky blue, deep blue, sunflower yellow and cream so the scenes read
-for dichromatic vision. Jack's black silhouette on a pale blue or cream ground is the highest
-contrast shape you can put in front of a dog. Keep the tennis ball a warm yellow rather than
-yellow-green. Jack's red collar and Lexie's teal collar stay as designed; the red reads as
-dark brown to a dog, which is fine, it is there for the owner.
+**How this maps to the channel formula.** Jack is the anxious dog the channel exists for, the
+Pluto role. Lexie is the comic engine. The reunion chase is the emotional payoff of every episode,
+and the food frenzy is the recurring gag.
+
+**Barking on a dog-TV channel.** Real barking on the soundtrack is the one thing that can undo a
+calming video. On screen, Lexie barks constantly. On the audio track she gets one soft, short
+"yip" at most every few minutes. Her barking is drawn, not heard: open mouth, tiny motion lines,
+Jack's reaction. Save full-volume barks for the owner-facing Shorts.
+
+**Palette note for the dog audience.** Keep your locked style but bias backgrounds toward sky
+blue, deep blue, sunflower yellow and cream. Jack's black silhouette on pale blue or cream is the
+highest-contrast shape you can put in front of a dog. Keep the tennis ball warm yellow. Collars
+stay as designed; the red reads brown to a dog, which is fine.
 
 ---
 
 ## 8. Script: "Jack & Lexie's Big Day Out"
 
-**Format:** 30:00 episode, six 5-minute chapters, built to loop. Widescreen 16:9 for the
-long-form upload. Shorts are cut from the same beats in vertical.
-**Music:** one continuous instrumental bed at 72 BPM, piano and low strings, gentle swells only at
-chapter changes. Ambient layer changes per chapter.
+**Format:** 30:00 episode, six 5-minute chapters, built to loop. 16:9 for the long upload,
+Shorts cut vertical from the same beats.
+**Music:** one continuous instrumental bed at 72 BPM, piano and low strings, swells at chapter
+changes only. Ambient layer changes per chapter.
 **Voice:** none inside chapters. Optional 12-second owner voiceover in the cold open.
 **On-screen text:** chapter cards only.
-**Recurring prop:** one yellow tennis ball. It is the through-line and the re-engagement cue.
+**Through-line:** one yellow tennis ball. It bounces (Jack's move) and it gets stolen (Lexie's).
+**Emotional arc:** together, briefly apart, back together. That is the whole story.
 
 ### COLD OPEN (0:00 to 0:20) - the dual hook
 
 ```
-0:00  Fade from cream. Wide living room in flat retro blues and cream. Jack asleep on a
-      long yellow sofa, folded up like a deckchair, one ear draped over the edge. Lexie in a
-      round blue bed on the floor, on her back, stubby legs in the air.
-      Ambient: soft clock tick, distant birds. Music bed begins, very low.
+0:00  Fade from cream. Living room in flat blues and cream. Jack asleep on a long yellow sofa,
+      folded up like a deckchair, one ear over the edge. Lexie in a round blue bed on the floor,
+      on her back, stubby legs in the air. Ambient: clock tick, distant birds. Music very low.
 
-0:03  The yellow tennis ball rolls in from screen-left, slow and horizontal, and bumps
-      Lexie's bed. (Slow lateral motion is the dog-attention cue.)
+0:03  The yellow tennis ball BOUNCES in from screen-left: three slow, lazy, arcing bounces
+      across the room. (Slow lateral motion is the dog-attention cue. Bouncing is Jack's thing.)
 
-0:06  One of Lexie's ears lifts a fraction, then flops back down. One eye opens.
-      She rolls upright in one comic heave and stares at the ball. Brows high in the middle.
+0:06  Jack's eyes open on bounce two. Head up on bounce three. Goofy grin, no teeth.
 
-0:09  Jack's head pops up over the sofa arm, brows worried: what did she do?
-      One soft "boof" from Jack. That is the only vocal in the cold open.
+0:09  Lexie rolls upright in one heave, sees the ball, opens her mouth in a silent bark:
+      mouth open, brows high in the middle, two tiny motion lines. The soundtrack gives one
+      soft "yip." Jack winces, ears back. That is the only vocal in the cold open.
 
-0:12  Title card slides in from the right, yellow text on deep blue:
+0:12  Title card slides in from the right, yellow on deep blue:
       "Jack & Lexie's Big Day Out"
       Sub-line, cream, smaller: "Dog TV in colors your dog can see"
 
 0:16  OPTIONAL owner voiceover, warm and quiet:
-      "This is Jack and Lexie. Jack gets nervous when we leave.
-       So we made him a cartoon. Press play, and go."
+      "This is Jack and Lexie. Jack gets anxious when we leave. Lexie barks about it.
+       So we made them a cartoon. Press play, and go."
 
 0:20  Card fades. Chapter 1 card.
 ```
@@ -187,61 +198,70 @@ chapter changes. Ambient layer changes per chapter.
 Card: "1. Good Morning"
 
 ```
-- Jack does a long slow downward-dog stretch, all legs, ears swinging, then a yawn.
-- Lexie carries the ball to the sofa in her mouth, drops it, sits, and stares up at Jack:
-  hopeful, brows up in the middle, no teeth. Jack looks at the ball, then at her, then
-  gently rests his chin on the sofa arm. Not yet.
-- Kitchen (reuse the kitchen setup from your existing paired scene): two bowls, a big blue one
-  and a small yellow one, fill with kibble as slow yellow dots. Soft "tick tick" of kibble.
-- Both eat. Lexie finishes first, of course, and drifts toward Jack's bowl in the stalking
-  crouch. Jack, without looking up, slides one long front leg across to block her. She sits.
-  Hold the two of them like that a full 30 seconds. It is the first laugh for the owner and a
-  still frame for the dog.
-- A yellow butterfly drifts through the open window and crosses the room left to right. Both
-  heads track it in perfect sync, Jack's high, Lexie's low. It exits.
-- Jack walks to the front door and sits, tall and neat. Lexie trots after, ball in mouth.
-  The door swings open on its own (no humans ever on screen). Light floods in.
-- Beat: both dogs framed in the doorway, one tall silhouette, one short, looking out.
-  Music swells lightly.
+- Jack: long downward-dog stretch, all four legs, ears swinging, big yawn. Goofy.
+- Lexie walks to the front door and scratches it. Three slow scratches. Looks back at Jack.
+  Silent bark. Jack pretends to be asleep. She scratches again. (Her signature, established early.)
+- Kitchen (reuse your paired kitchen scene): the FOOD FRENZY. Two bowls, a big blue one and a
+  small yellow one. The moment kibble starts falling as slow yellow dots, both dogs lose their
+  minds: Jack spins one full goofy circle, ears out flat. Lexie hops up on her back legs and
+  bounces, front paws paddling the air, silent barks, brows up in the middle, no teeth.
+- Both eat. Lexie finishes in about four seconds and drifts toward Jack's bowl in her stalking
+  crouch. Jack, still eating, shoulders her gently sideways without looking (his take-charge
+  bump). She slides a foot. Comes back. He bumps again. She sits and glares at the bowl.
+  Hold the two of them like that for 30 seconds. First laugh for the owner, still frame for the dog.
+- A yellow butterfly drifts in the open window and crosses the room left to right. Both heads
+  track it in sync, Jack's high, Lexie's low. Lexie opens her mouth to bark at it, decides not to.
+- Jack goes to the front door and sits, tall and neat. Lexie is already there, mid-scratch.
+  The door swings open on its own (no humans on screen, ever). Light floods in.
+- Beat: both dogs framed in the doorway, one tall silhouette, one short. Music swells lightly.
 ```
 
 ### CHAPTER 2 (5:00 to 10:00) - The Walk
 Card: "2. The Walk"
 
 ```
-- Side-scrolling neighbourhood on your existing sidewalk plates, re-tinted toward blue
-  sky, cream houses, yellow fences. Camera and dogs move together, left to right, at an
-  unhurried trot. Jack's head just below the fence pickets, Lexie's back at fence-middle.
-- This is the signature shot of the whole genre: slow lateral movement and nothing else.
-  Lexie carries the ball the entire walk. Jack keeps glancing down to check she still has it.
+- Side-scrolling neighbourhood on your sidewalk plates, re-tinted: blue sky, cream houses,
+  yellow fences. Camera and dogs move together, left to right, at an unhurried trot.
+  Jack's head just below the fence pickets, Lexie's back at fence-middle. Jack carries the ball.
+- The signature genre shot: slow lateral movement and nothing else. Jack walks half a step
+  ahead. Lexie barks silently at everything they pass. Jack's ears flick back at each one.
 - One small event every 30 to 45 seconds:
-    * A grey cat in a window watches them pass. Jack looks away first. Lexie holds the stare.
-    * A yellow leaf lands on Lexie's head. She does not notice. Jack notices and worries about it
-      for the next twenty seconds until it blows off.
-    * A blue mail truck hums past in the background. Jack flinches half a step, recovers,
-      keeps walking. Nobody makes a big thing of it.
-    * A friendly grey pup passes the other way. Three tails wag. Lexie tightens her grip on the ball.
-- The corner store from your plates appears. The ball slips out of Lexie's mouth and rolls
-  ahead, past the stoop, slow and low.
-- Both dogs freeze. Look at each other. The chase begins as the park gates come into view.
-  (Cut before the sprint gets fast. Chapter 3 opens on the resolution.)
+    * A grey cat in a window. Lexie: silent bark, motion lines. The cat blinks. Jack keeps walking.
+    * A yellow leaf lands on Lexie's head. She barks at Jack about it. He does not know what to do.
+      It blows off twenty seconds later. Crisis over.
+    * A bicycle (plain, no face, no eyes) rolls past in the background with a soft tick of spokes.
+      Jack steps in front of Lexie, chest out, protective, until it is gone. Then a goofy grin.
+    * A friendly grey pup passes the other way. Three tails wag. Lexie wants to follow it.
+      Jack bumps her back on course with his shoulder. She pushes back once, then goes.
+- Corner store plate. Lexie plants her feet and STOPS. Refuses to move. Jack walks on ten feet,
+  turns, sits, waits. Silent stare. Beat. Beat. Lexie sighs, trots after him. (Stubborn, then
+  does what is asked. This is the most Lexie beat in the episode.)
+- Jack drops the ball to look back at her. It bounces off the stoop and rolls ahead toward the
+  park gates. Both dogs freeze. Look at each other. Cut before the sprint gets fast.
 ```
 
 ### CHAPTER 3 (10:00 to 15:00) - The Park
 Card: "3. The Park"
 
 ```
-- Open on the green-patch plate re-tinted: yellow grass, blue sky. The ball pops up off a
-  bump. Jack and Lexie leap for it from opposite sides, the mid-air scramble from your set.
-  Play it in slow motion, and end on a gentle bump, not a crash. Both land sitting, blinking.
-  The ball rolls between them and stops. Lexie puts one paw on it. Jack lets her have it.
-- Lexie lies down by a pond with the ball under her chin and watches yellow ducks drift left
-  to right. Ripples animate slowly. Hold 45 seconds. Ambient: water lapping, quiet ducks.
-- Jack stands guard a few feet back, then slowly, joint by joint, lowers himself down beside
-  her. The anxious dog relaxing is the emotional beat of the episode. Hold it.
-- Clouds pass. Their shadows slide across the grass. 60-second hold, nothing else happens.
+- Open on the green-patch plate re-tinted: yellow grass, blue sky. The ball pops up off a bump.
+  Jack and Lexie leap for it from opposite sides, your mid-air scramble. Slow motion. They bump
+  softly, land sitting, blink. The ball bounces twice between them and stops. Jack puts a paw on it.
+  Lexie puts a paw on Jack's paw. Hold.
+- Jack plays with the ball alone for a while: bounce, catch, bounce, catch, ears flying, pure
+  goofy joy. Lexie watches from a distance with her chin on the grass, a little envious.
+- THE SEPARATION. Lexie spots yellow ducks on the pond and wanders off after them, low and
+  stalking. Jack, mid-bounce, catches the ball, turns, and she is gone. The ball drops.
+  Ears drop. He looks left. Looks right. Brows in the full worried arch. He walks to the last
+  place he saw her and sits, very still. Hold this for 40 seconds with only clouds moving.
+  This is the beat for every owner whose dog is Jack.
+- THE REUNION. Lexie's ears appear over the pond bank. Then her head. She sees Jack. Silent bark.
+  Jack sees her. The chase from your notes: Jack TAKES OFF, Lexie CHASES, one full lap of the
+  pond in slow lateral tracking, ducks scattering upward in yellow. They pile into the grass
+  together and lie there panting, no teeth. The ball rolls up and stops against Jack's nose.
+- Clouds pass. Shadows slide across the grass. 45-second hold, nothing else.
 - 14:00 re-engagement cue: Lexie's paw squeezes the ball, one soft squeak. Both sets of ears
-  twitch, Jack's up, Lexie's swing. Then settle.
+  twitch. Settle.
 ```
 
 ### CHAPTER 4 (15:00 to 20:00) - Snack Time
@@ -250,14 +270,16 @@ Card: "4. Snack Time"
 ```
 - A little blue food cart under a yellow umbrella at the park edge. Treats on the counter at
   dog eye level, simple yellow and cream shapes.
-- Jack sits, upright and correct. Lexie sits, then slowly rises onto her hind legs, front paws
-  reaching hopefully upward, the exact pose from your kitchen scene. Jack watches her, brows
-  raised in his gentle worried arch.
-- Two treats slide off the counter and land in front of them. No hand shown.
+- FOOD FRENZY TWO. Jack sits upright and correct, but his whole back end is vibrating and his
+  tail is sweeping the ground. Lexie goes straight up on her back legs, front paws on the cart,
+  looking up, silent bark, brows high in the middle, exactly her homecoming pose from your notes.
+- Two treats slide off the counter. No hand shown. Both dogs catch theirs mid-air.
 - Lexie eats hers in one bite and looks at Jack's. Jack eats his slowly and deliberately while
   making eye contact with her. Crumbs as yellow specks. Ambient: soft crunch, umbrella flapping.
-- A picnic blanket in blue and cream check. Both nap. Lexie ends up using Jack's back leg as a
-  pillow. Camera drifts very slowly up to slow clouds and back down. 90 seconds, almost still.
+- Picnic blanket in blue and cream check. Jack sprawls across the whole thing. Lexie has had
+  enough: she shoves her way in with her head and shoulders until he rolls over. She wins.
+  Both nap. Lexie uses Jack's back leg as a pillow. Camera drifts slowly up to slow clouds and
+  back down. 90 seconds, almost still.
 ```
 
 ### CHAPTER 5 (20:00 to 25:00) - Heading Home
@@ -266,14 +288,15 @@ Card: "5. Heading Home"
 ```
 - Same sidewalk scroll as Chapter 2, reversed, right to left, so the walk "undoes" itself.
   Late-afternoon light: warmer cream, longer shadows.
-- Jack carries the ball now, proud, head high, the grin-with-ball pose from your thumbnail.
-  Lexie trots beside him watching the ball the whole way, already scheming, but she lets him.
-- The grey pup from earlier is asleep on its porch. The cat is gone from the window.
+- Jack carries the ball, proud, head high, your grin-with-ball thumbnail pose. Lexie trots beside
+  him watching the ball the whole way, already scheming, but she lets him have it.
+- The grey pup from earlier is asleep on its porch. Lexie considers barking. Doesn't. Growth.
 - Street lamps glow on in yellow one by one as they pass.
-- The back alley plate: Jack takes the long way round the crates, Lexie squeezes straight
-  through the gap and is waiting on the other side. She does not mention it.
-- Their own porch. Jack sets the ball on the top step, neatly, centred, and steps back with
-  quiet pride, the held pose from your opening plate. The door opens for them.
+- Back alley plate: Jack shoulders Lexie playfully toward the crates. She shoulders him back
+  harder than he expected. He grins. Then he takes the long way round the crates while she
+  squeezes straight through the gap and is waiting on the other side.
+- Their own porch. Jack sets the ball on the top step, neatly, centred, and steps back with quiet
+  pride, your held opening pose. Lexie scratches the door twice. It opens for them.
 ```
 
 ### CHAPTER 6 (25:00 to 30:00) - Bedtime
@@ -281,19 +304,28 @@ Card: "6. Bedtime"
 
 ```
 - Living room at dusk, lamp light in yellow, walls in deep blue.
-- Jack folds himself onto the sofa. Lexie climbs into her round bed, turns three full circles,
-  and drops. The ball rolls itself from the doorway to the foot of her bed and stops.
+- Jack folds himself onto the sofa. Lexie scratches her bed, three slow scratches, turns three
+  circles, drops. The ball bounces itself once from the doorway, rolls to the foot of her bed,
+  stops.
 - Both dogs' breathing animates slowly: rise and fall, rise and fall.
-- Lexie's eyes open once. She looks at the ball. She looks at Jack. She closes her eyes.
+- Lexie's eyes open once. She looks at the ball. Looks at Jack. Opens her mouth for one last
+  silent bark. Closes it. Closes her eyes.
 - Music thins to piano only. Ambient: crickets, very soft.
-- Camera pulls back slowly through the window until the house is small under a deep blue sky
-  and one star comes out.
+- Camera pulls back slowly through the window until the house is small under a deep blue sky and
+  one star comes out.
 - Fade to the exact first frame of the Cold Open for a seamless loop.
 ```
 
 ### END CARD (last 8 seconds, non-loop upload only)
 Yellow on blue: "Jack & Lexie will be back tomorrow. Subscribe so your dog never watches alone."
 Small line: "Made for dogs. Loved by their people."
+
+### A note on the homecoming
+Your notes describe the best moment of their day: you walk in, Jack mouths your arm, Lexie
+bounces on her hind legs and barks. It is not in the long-form episode on purpose. The channel
+keeps humans off screen so a dog watching alone is not shown a homecoming that has not happened.
+Use it in the Shorts and in the channel trailer, where the audience is the owner, and let the
+Chapter 3 reunion carry that feeling inside the episode.
 
 ---
 
@@ -307,7 +339,7 @@ Small line: "Made for dogs. Loved by their people."
 **Description (first two lines show before "more"):**
 ```
 Jack and Lexie are real dogs. This is their cartoon, drawn in the blue and yellow colors dogs actually see.
-Press play before you leave the house. Calm music, slow scenes, no ads, no loud noises.
+Press play before you leave the house. Calm music, slow scenes, no ads, no loud noises, no barking.
 
 Chapters
 0:00 Good Morning
@@ -319,13 +351,13 @@ Chapters
 
 Why it works: dogs have dichromatic vision (blue and yellow), so those colors stand out on screen.
 Slow, side-to-side motion holds their attention, and low-frequency music at about 70 BPM is soothing.
-Jack gets anxious when he is left alone. This helped him. We hope it helps your dog too.
+Jack gets anxious when he is left alone. Lexie barks about it. This helped them both.
 
 #dogcartoon #cartoonfordogs #dogtv #separationanxiety #calmingmusicfordogs #homealone #puggle
 ```
 
-**Thumbnail:** you already have the right one in your history (job `340e027a-3897-4c89-9051-2be359f50f44`):
-Jack grinning with the ball, Lexie staring at it with comic longing, lower third clear for text.
+**Thumbnail:** you already have the right one (job `340e027a-3897-4c89-9051-2be359f50f44`):
+Jack grinning with the ball, Lexie staring at it with comic longing, lower third clear.
 Add "DOG TV" in big yellow top-left and a small "colors dogs can see" pill bottom-right, and
 swap the background to solid blue.
 
@@ -333,16 +365,16 @@ swap the background to solid blue.
 - 30:00 episode with chapters and end card.
 - 1-hour and 4-hour seamless loops, no end card.
 - 12-hour "all day" loop titled with "12 Hours" and "Home Alone".
-- Three vertical Shorts from the beats you have already plated: the porch stalk, the mid-air
-  scramble, and Lexie winning through the alley. On-screen text "Show this to your dog."
-  If you have a real clip of Jack or Lexie watching a screen, open the Short with it.
+- Three vertical Shorts, owner-facing, full sound allowed: the food frenzy, the stubborn stop at
+  the corner store, and the reunion chase. On-screen text "Show this to your dog." Open each with
+  a real clip of Jack or Lexie if you have one; the homecoming clip is the channel trailer.
 
 **Series ideas (same structure, new plates):**
-- Jack & Lexie at the Beach (blue water, yellow sand, Lexie digs, Jack worries about the tide)
-- Snow Day (white and blue, Jack in a yellow scarf, Lexie disappears into a drift)
-- Rainy Day Indoors (window, raindrops sliding, the calmest one, Lexie hoards every toy on Jack's sofa)
-- Trip to the Farm (yellow hay, blue sky, Jack afraid of a very small chicken)
-- Camping Night (blue tent, yellow campfire glow, Lexie steals the marshmallow)
+- Jack & Lexie at the Beach (Lexie barks at the waves, every single one; Jack digs one huge hole)
+- Snow Day (Jack in a yellow scarf, Lexie disappears into a drift and barks from inside it)
+- Rainy Day Indoors (the calmest one; Lexie hoards every toy on Jack's sofa, he lets her)
+- Trip to the Farm (Jack protective of Lexie against one very small chicken)
+- Camping Night (blue tent, yellow campfire glow, Lexie steals the marshmallow, Jack takes charge, loses)
 
 ---
 
@@ -351,13 +383,18 @@ swap the background to solid blue.
 - Use the `Jack-toon` and `Lexie-toon` Elements for every scene, never the photo Elements.
   Embed them as `<<<329d3592-88f5-4db0-97e7-6687153a6ebd>>>` and
   `<<<0503e286-2d0e-4b4b-b6aa-099a95ec40ad>>>` inside the prompt.
-- Keep the guard lines from your existing prompts in every generation. They are doing real work:
+- Keep the guard lines from your existing prompts in every generation. They do real work:
   Jack "SLIM, LEGGY AND LANKY, not stocky or thick-necked, one single pointed tan chest bib";
   Lexie "long brown drop ears HANGING DOWN past her jaw, never standing up; eyes BIG, ROUND, OPEN
   AND BRIGHT, brows raised in the MIDDLE, never heavy-lidded or angry; NO visible teeth."
+- Lexie's silent bark is a new recurring pose: mouth open in a small round "o", brows high in
+  the middle, two short motion lines by the muzzle, no teeth. Add it to her expression sheet once
+  and reference it everywhere.
+- Jack's bouncing-ball pose set: ball at apex, ball at ground, Jack mid-catch with eyes crossed
+  on it. Three stills cover every bounce in the episode.
 - Keep the scale rule: Jack's head just below fence-picket height, Lexie half his height.
+- No vehicle characters from the other series. The bicycle in Chapter 2 has no face.
 - Build each chapter as a still background plate plus a character plate, then animate with slow
-  lateral camera drift or image-to-video at low motion. For the dog audience the plate can
-  hold for 30 to 90 seconds; one moving element per shot is enough.
+  lateral camera drift or image-to-video at low motion. A plate can hold 30 to 90 seconds for the
+  dog audience; one moving element per shot is enough.
 - Generate the 16:9 plates fresh; your existing plates are vertical and suit the Shorts.
-- Nothing in the script needs an expression outside your six-expression sheets.
