@@ -83,8 +83,8 @@ Nothing is at stake. No villain, no jump, no fast cut.
 - **Audio:** soft music at roughly 60 to 100 BPM, rich in lower frequencies, no sudden peaks.
   Light ambient sound (birds, water, distant park). Use dog vocalizations sparingly; a
   single friendly bark or squeak every few minutes is a re-engagement cue, constant barking is a stressor.
-- **Length:** long enough to cover a work day. Build a 30-minute episode from loopable
-  5-minute chapters, then publish 1-hour, 4-hour and 12-hour versions of the same file.
+- **Length:** the source channel covers a work day by looping. Build one tight 8-minute
+  episode, then publish 1-hour, 4-hour and 12-hour loops of the same file.
 
 ## 6. Why it works for the owner (positioning to copy)
 
