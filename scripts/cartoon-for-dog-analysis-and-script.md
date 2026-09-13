@@ -525,7 +525,12 @@ open them from your Higgsfield history or paste an ID into `job_display`.
 - Every shot not listed as a clip is a still with a slow editor pan or push (2 to 4 percent over the hold).
 - Chapter 2 and chapter 5 walks: pan the 21:9 sidewalk stills left to right (chapter 2) and right to left
   (chapter 5) at a constant speed so the dogs appear to trot in place.
-- The music bed is not available through the Higgsfield MCP tools (no standalone music model is exposed
-  there). Your earlier "Text to Music" spend came through the Higgsfield web app; generate the 72 BPM
-  piano bed there or from a stock library, then lay it under the cut.
-- The optional 12-second cold-open voiceover is meant to be your own voice. Nothing was generated for it.
+- Music bed: `audio/jack-lexie-bed-72bpm-8min.mp3` (synthesized, royalty-free, 72 BPM, C major, low
+  register, 8:00, loops). Regenerate or change length with `python3 audio/make_bed.py <seconds> <name>`.
+  For a richer bed, paste this into Higgsfield's web Text to Music: "Calm instrumental for dogs, 72 BPM,
+  soft felt piano and warm low strings, C major, slow and even, no drums, no sudden peaks, gentle 8-bar
+  phrases that loop, rich in low frequencies, sparse and unhurried, 8 minutes."
+- Cold-open voiceover, general male preset voices, Seed Audio 1.0, 0.9 credits each:
+  John: f1e3ed7c-0961-473b-87d5-1ff0ccf2b4dd. Miles: 627debc3-0ea0-48d7-b0f0-a075f027a015.
+  Line: "This is Jack and Lexie. Jack gets anxious when we leave. Lexie barks about it. So we made them a
+  cartoon. Press play... and go." Sit it under the title card from 0:16 to 0:28 at about -6 dB against the bed.
