@@ -439,3 +439,93 @@ video model at all.
 
 The 1-hour, 4-hour and 12-hour loops cost 0 credits. They are the same file repeated in the editor.
 Free-trial unlimited generations are not currently active on your account.
+
+---
+
+## 12. Build manifest (generated 2026-09-13, Higgsfield workspace)
+
+All stills are Nano Banana 2 at 1k, 16:9 unless marked 21:9. Job IDs are Higgsfield generation IDs;
+open them from your Higgsfield history or paste an ID into `job_display`.
+
+### Background plates
+| Plate | Job ID | Notes |
+|---|---|---|
+| P1 Living room, morning | 84c7dc4a-47b5-48f3-8a41-82f97f279e7d | |
+| P2 Kitchen | d1fa4316-af6c-4df5-bf51-4150db179246 | |
+| P3 Sidewalk, 21:9 | 75837f12-2fc8-4f4b-8fae-fc0d8846b72c | built for slow horizontal pan |
+| P4 Corner store | a3661303-160c-4d24-a74b-96abc30269c1 | |
+| P5 Park with pond | 5f39bd70-e32a-4fbe-88a8-ef8c2e17fa2c | |
+| P6 Snack cart and blanket | 703ea655-b69b-47e1-8447-2adf507f193c | |
+| P7 Back alley | 2aa8eade-b869-4e7b-bad3-015e16fd05ce | |
+| P8 Front porch | 2fe2a5e0-70f6-47b2-80a5-e253bc033702 | |
+| P9 House at night | 863009dd-8f1b-4dea-a173-a9010741e392 | |
+| P10 Living room, dusk | d7363d4f-1378-4697-b02c-f3695d6b0334 | recolor of P1 |
+| P11 Front hallway interior | e6b2d4b5-0cb7-4ff4-b09b-32149fc54c7d | |
+| P12 Sidewalk, late afternoon, 21:9 | 2cfdaae7-f7e2-4d5b-aadc-2d3430a64125 | recolor of P3 |
+
+### Stills, in script order
+| Time | Shot | Job ID |
+|---|---|---|
+| 0:00 | S1 both asleep | efc95772-638a-487e-9ff1-694c296ead87 |
+| 0:03 | S2 ball bounces in, Jack wakes | de0894d9-47d4-4ba1-a5b4-74d0fc454e76 |
+| 0:09 | S3 Lexie's silent bark, Jack winces | a8136922-87b4-4df3-8865-5c6d8c2fb4eb |
+| 0:22 | S4 Jack downward-dog | 5518f27b-c49b-4727-bc64-702532400d1e |
+| 0:30 | S5 Lexie scratches door, Jack fakes sleep | 3abf0abb-55cf-4ab6-8507-84c632d83ccc |
+| 0:40 | S6 kitchen food frenzy | 61616d0c-2023-4d3b-99b1-329849a76d29 |
+| 0:55 | S7 Jack bumps Lexie off his bowl | e1e03289-ce9f-4d6b-9746-cbc673fc749b |
+| 1:12 | S8 butterfly | ba7a5d2f-6eaf-4d07-9fc2-4f0a220be56e |
+| 1:22 | S9 door opens, light floods | c38fad01-769b-46cb-9647-333a7900e336 |
+| 1:32 | S13 the walk, 21:9 | b10d3f6f-62a6-4e00-bc89-faac3ec31232 |
+| 1:52 | S14 cat in window, 21:9 | 1d54c42e-11cd-47bd-ab5d-ac956246cf95 |
+| 2:02 | S15 bicycle, Jack protects, 21:9 | 366b5d10-d031-45a2-a4b1-15f0072a09ce |
+| 2:17 | S16 grey pup, Jack bumps Lexie back, 21:9 | 9fe6e292-e7dc-40ce-af96-3eeee4d54f98 |
+| 2:30 | S17 stubborn stop | 7d1e5abf-4070-4491-b0d0-b9efc9d9d776 |
+| 2:40 | S18 Lexie gives in | f0855a5f-a047-4465-9a72-0eff27059046 |
+| 2:50 | S19 ball rolls, both freeze | e01bde22-9b2f-4dd0-a402-48f6ede6650e |
+| 3:02 | S20 mid-air leap | d2f6c6a7-a965-411e-850c-3b000b376db4 |
+| 3:12 | S21 paw on paw | ca122e9c-8d29-4da2-907d-403205f2b7e2 |
+| 3:20 | S22 Jack plays alone, Lexie envious | bc06a027-0d67-4a8c-a6b7-0c3b15689b53 |
+| 3:38 | S23 Lexie stalks ducks | 0914c60d-78da-4350-854b-17f4ea2b89f3 |
+| 3:45 | S24 Jack alone, worried | 0a585129-3640-4e95-8130-ad21f2fcabf2 |
+| 4:05 | S25 Lexie reappears over the bank | 08f3e9e0-c4d1-4e7c-9bbd-0b084ad85926 |
+| 4:12 | S26 reunion chase | 4b0d5767-1ec8-409b-be2c-42a52cd17c57 |
+| 4:25 | S27 happy heap | fe05eb01-abb1-4122-91a7-18b2fd72cc22 |
+| 4:35 | S28 calm hold, squeak | 689a9301-46c9-44f6-ae9d-df906035bb09 |
+| 5:02 | S29 snack cart frenzy | be8324e7-3256-417e-a4d5-e0a7539cc6e9 |
+| 5:15 | S30 catching treats | 3a6e5e73-7307-4ce0-b9ad-f474bc3bd0a9 |
+| 5:30 | S31 blanket shove | 07083e8e-bcb2-4d3d-ad74-5e15d8d559a8 |
+| 5:42 | S32 nap, leg as pillow | ff50798a-a2f8-4506-bd03-c8eab779e47e |
+| 6:02 | S36 heading home, 21:9 | 4f9afce4-55b2-49f2-b3dc-0f9ffa913dd5 |
+| 6:32 | S33 alley shoving match | f8df1810-7ac2-4524-b9da-8ef9186d7442 |
+| 6:40 | S34 long way round vs the gap | 2f0c6c34-3261-41e2-91c4-c7879e5f8344 |
+| 6:48 | S35 ball on the step, Lexie scratches door | f535387c-33f1-47bd-956c-62b7d262c293 |
+| 7:02 | S37 bedtime, Lexie scratches bed | b3b8ed64-174d-4eac-a195-0781c23f3b7f |
+| 7:32 | S38 Lexie's eyes open at the ball | e9a1031d-673e-49ca-9388-f772049bc5e8 |
+| 7:52 | S39 both asleep, loop frame | 779e58f0-1360-4dda-9bbb-6cde839811cb |
+
+### Hero clips (image-to-video from the still named, no native audio)
+| Time | Clip | Model | Job ID |
+|---|---|---|---|
+| 0:03 | V1 ball bounce (S2) | Wan 3.0, 6 s | e8237d0d-de03-4eaa-8493-cb39f5d8394e |
+| 0:09 | V2 silent bark and wince (S3) | Wan 3.0, 6 s | 6617ace6-e3cf-4900-b30b-a07d9c600e2f |
+| 0:22 | V3 downward-dog yawn (S4) | Wan 3.0, 6 s | 610baed5-2bf3-4f6b-8804-bdc16b77fe8f |
+| 0:40 | V4 kitchen food frenzy (S6) | Seedance 2.5, 5 s | b2574d33-efb3-4d55-ab02-abc927693106 |
+| 1:12 | V5 butterfly (S8) | Wan 3.0, 6 s | PENDING |
+| 2:02 | V6 bicycle (S15) | Wan 3.0, 6 s | PENDING |
+| 2:30 | V7 stand-off and first step (S17) | Wan 3.0, 6 s | 0e5e154b-bbbd-44bf-8d2f-b45b9b34285b |
+| 3:02 | V8 leap and bump (S20) | Seedance 2.5, 5 s | 09303d46-1b50-4d30-a184-c516b7bc9ede |
+| 4:12 | V9 reunion chase (S26) | Seedance 2.5, 5 s | 2eb822ef-6aba-4e2c-9270-6e1c907207ea |
+| 5:02 | V10 snack cart frenzy (S29) | Seedance 2.5, 5 s | db6904af-35b4-413d-9c40-98a15e7b5057 |
+| 5:30 | V11 blanket shove (S31) | Wan 3.0, 6 s | PENDING |
+| 6:32 | V12 alley shove (S33) | Wan 3.0, 6 s | 6e023b93-07af-43f4-9c2a-9d6cf650207f |
+| 7:02 | V13 bedtime scratch and circles (S37) | Wan 3.0, 8 s | a82b4693-891f-4651-9564-2cd02602a63a |
+| 7:40 | V14 night pull-back (P9) | Wan 3.0, 8 s | 409d5903-64e4-472c-991a-d763180789df |
+
+### Assembly notes
+- Every shot not listed as a clip is a still with a slow editor pan or push (2 to 4 percent over the hold).
+- Chapter 2 and chapter 5 walks: pan the 21:9 sidewalk stills left to right (chapter 2) and right to left
+  (chapter 5) at a constant speed so the dogs appear to trot in place.
+- The music bed is not available through the Higgsfield MCP tools (no standalone music model is exposed
+  there). Your earlier "Text to Music" spend came through the Higgsfield web app; generate the 72 BPM
+  piano bed there or from a stock library, then lay it under the cut.
+- The optional 12-second cold-open voiceover is meant to be your own voice. Nothing was generated for it.
