@@ -384,3 +384,58 @@ swap the background to solid blue.
   seconds; one moving element per shot is enough. Rough shot budget: cold open 5, Good Morning 6,
   The Walk 7, The Park 8, Snack Time 4, Heading Home 4, Bedtime 4. About 38 stills, 8 plates.
 - Generate the 16:9 plates fresh; your existing plates are vertical and suit the Shorts.
+
+---
+
+## 11. Credit estimate (8:00 episode)
+
+Unit prices are taken from your own Higgsfield transaction history, not a price list:
+
+| Item | What you paid | Notes |
+|---|---|---|
+| Nano Banana 2 / Flash image | 1.5 | every Jack and Lexie still so far |
+| Nano Banana Pro image | 4 | thumbnail quality |
+| Seedance 2.5, 5 s, 720p | 32.5 | your dog chase clips |
+| Seedance 2.0, 10 s, 1080p | 90 | your vehicle-series clips |
+| Wan 3.0, 9 s, 720p | 12 to 16 | one earlier test |
+| Text to Music track | 18.75 | |
+| Voiceover line | 0.9 | |
+
+Retake factor: your history shows roughly 2.5 image generations per kept still (Lexie's ears and
+expression are the usual reason) and about 1.5 video generations per kept clip. The numbers below
+include those retakes.
+
+**Stills, any approach: about 185 credits**
+- 38 character stills + 8 background plates = 46 finals, at 2.5 tries each = 115 gens x 1.5 = 173
+- Thumbnail on Nano Banana Pro, 3 tries = 12
+
+**Audio, any approach: about 80 credits**
+- Music bed, 3 tries = 56. Voiceover, 3 tries = 3. Ambient sound effects, allow 20.
+
+**Video, the part that decides the budget (8:00 = 480 seconds)**
+
+| Approach | Clips | Model | Credits |
+|---|---|---|---|
+| A. Lean: 14 hero moments animated, everything else is a still with a slow pan added in the editor | 30 gens | Wan 3.0 | ~420 |
+| B. Lean, higher quality on the 14 moments | 30 gens | Seedance 2.5 | ~975 |
+| C. Everything animated | 81 gens | Wan 3.0 | ~1,130 |
+| D. Everything animated | 144 gens | Seedance 2.5 | ~4,700 |
+| E. Everything animated at 1080p | 72 gens | Seedance 2.0 | ~6,500 |
+
+**Totals**
+
+| Approach | Total credits | Fits current balance (1,883)? |
+|---|---|---|
+| A | ~690 | yes, about 1,200 left |
+| B | ~1,240 | yes, about 640 left |
+| C | ~1,400 | yes, about 480 left |
+| D | ~4,950 | no, needs a 4,000 top-up |
+| E | ~6,750 | no |
+
+**Recommendation:** a mix of A and B, about 900 credits. Use Seedance 2.5 only on the four shots
+with real character motion (the mid-air leap, the reunion chase, the two food frenzies) and Wan 3.0
+or editor pans for the rest. A dog-TV episode is mostly slow holds, so most shots do not need a
+video model at all.
+
+The 1-hour, 4-hour and 12-hour loops cost 0 credits. They are the same file repeated in the editor.
+Free-trial unlimited generations are not currently active on your account.
