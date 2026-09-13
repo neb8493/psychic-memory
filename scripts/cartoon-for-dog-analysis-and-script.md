@@ -534,7 +534,8 @@ open them from your Higgsfield history or paste an ID into `job_display`.
   (`jack-lexie-bed-lyria35-8min-loop.mp3`).
 - Alternate take: MiniMax Music v3 via Picsart, instrumental, 5 credits, job 4b08a6f8-9388-4d1a-bec7-0e4a540f8e50
   (workflow minimax-music/v3).
-  Download: https://gcdn.picsart.com/editing-temp/768a5dae-ae9c-42e9-8403-e572dedb6a1b.mp3?download=true&download_file_name=minimax-music-v3.mp3
+  2:01 long. Download: https://gcdn.picsart.com/editing-temp/768a5dae-ae9c-42e9-8403-e572dedb6a1b.mp3?download=true&download_file_name=minimax-music-v3.mp3
+  Imported into Higgsfield as audio media 3580c52f-9845-4734-a376-944257f1d41e.
 - Fallback: the synthesized bed `audio/jack-lexie-bed-72bpm-8min.mp3` (rejected by the owner, kept for reference).
 - Cold-open voiceover, chosen voice Benji (young male preset), Seed Audio 1.0, 14.0 s:
   e095e732-c930-4ed4-b8b1-9b07cf15687e. Earlier takes: John f1e3ed7c-0961-473b-87d5-1ff0ccf2b4dd,
