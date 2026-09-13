@@ -525,12 +525,16 @@ open them from your Higgsfield history or paste an ID into `job_display`.
 - Every shot not listed as a clip is a still with a slow editor pan or push (2 to 4 percent over the hold).
 - Chapter 2 and chapter 5 walks: pan the 21:9 sidewalk stills left to right (chapter 2) and right to left
   (chapter 5) at a constant speed so the dogs appear to trot in place.
-- Music bed: `audio/jack-lexie-bed-72bpm-8min.mp3` (synthesized, royalty-free, 72 BPM, C major, low
-  register, 8:00, loops). Regenerate or change length with `python3 audio/make_bed.py <seconds> <name>`.
-  For a richer bed, paste this into Higgsfield's web Text to Music: "Calm instrumental for dogs, 72 BPM,
-  soft felt piano and warm low strings, C major, slow and even, no drums, no sudden peaks, gentle 8-bar
-  phrases that loop, rich in low frequencies, sparse and unhurried, 8 minutes."
-- Cold-open voiceover, general male preset voices, Seed Audio 1.0, 0.9 credits each:
-  John: f1e3ed7c-0961-473b-87d5-1ff0ccf2b4dd. Miles: 627debc3-0ea0-48d7-b0f0-a075f027a015.
+- Music bed, chosen take: Google Lyria 3.5 via Picsart, instrumental, 3 credits.
+  Picsart job 46aa9c4f-238b-476e-80d8-cd2bdd150a3d (workflow lyria/v2/music).
+  Download: https://gcdn.picsart.com/editing-temp/01bcfd3d-5069-42a9-a19e-8368659999f4.mp3?download=true&download_file_name=lyria-3.5.mp3
+  Also imported into the Higgsfield workspace as audio media c27300dc-30fa-417a-8f39-06c2f138d3d4.
+  Loop it to fill 8:00 with a 2-second crossfade at each join.
+- Alternate take: MiniMax Music v3 via Picsart, instrumental, 5 credits, job 4b08a6f8-9388-4d1a-bec7-0e4a540f8e50
+  (workflow minimax-music/v3), see the Picsart results panel.
+- Fallback: the synthesized bed `audio/jack-lexie-bed-72bpm-8min.mp3` (rejected by the owner, kept for reference).
+- Cold-open voiceover, chosen voice Benji (young male preset), Seed Audio 1.0, 14.0 s:
+  e095e732-c930-4ed4-b8b1-9b07cf15687e. Earlier takes: John f1e3ed7c-0961-473b-87d5-1ff0ccf2b4dd,
+  Miles 627debc3-0ea0-48d7-b0f0-a075f027a015.
   Line: "This is Jack and Lexie. Jack gets anxious when we leave. Lexie barks about it. So we made them a
   cartoon. Press play... and go." Sit it under the title card from 0:16 to 0:28 at about -6 dB against the bed.
