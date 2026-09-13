@@ -510,13 +510,13 @@ open them from your Higgsfield history or paste an ID into `job_display`.
 | 0:09 | V2 silent bark and wince (S3) | Wan 3.0, 6 s | 6617ace6-e3cf-4900-b30b-a07d9c600e2f |
 | 0:22 | V3 downward-dog yawn (S4) | Wan 3.0, 6 s | 610baed5-2bf3-4f6b-8804-bdc16b77fe8f |
 | 0:40 | V4 kitchen food frenzy (S6) | Seedance 2.5, 5 s | b2574d33-efb3-4d55-ab02-abc927693106 |
-| 1:12 | V5 butterfly (S8) | Wan 3.0, 6 s | PENDING |
-| 2:02 | V6 bicycle (S15) | Wan 3.0, 6 s | PENDING |
+| 1:12 | V5 butterfly (S8) | Wan 3.0, 6 s | 9999499b-86be-43a6-97cb-47888937a055 |
+| 2:02 | V6 bicycle (S15) | Wan 3.0, 6 s | 744d6fd6-a141-4f03-a4c0-a4394939041a |
 | 2:30 | V7 stand-off and first step (S17) | Wan 3.0, 6 s | 0e5e154b-bbbd-44bf-8d2f-b45b9b34285b |
 | 3:02 | V8 leap and bump (S20) | Seedance 2.5, 5 s | 09303d46-1b50-4d30-a184-c516b7bc9ede |
 | 4:12 | V9 reunion chase (S26) | Seedance 2.5, 5 s | 2eb822ef-6aba-4e2c-9270-6e1c907207ea |
 | 5:02 | V10 snack cart frenzy (S29) | Seedance 2.5, 5 s | db6904af-35b4-413d-9c40-98a15e7b5057 |
-| 5:30 | V11 blanket shove (S31) | Wan 3.0, 6 s | PENDING |
+| 5:30 | V11 blanket shove (S31) | Wan 3.0, 6 s | 6a288650-b029-4ac6-8f58-f9ae6ea0761c |
 | 6:32 | V12 alley shove (S33) | Wan 3.0, 6 s | 6e023b93-07af-43f4-9c2a-9d6cf650207f |
 | 7:02 | V13 bedtime scratch and circles (S37) | Wan 3.0, 8 s | a82b4693-891f-4651-9564-2cd02602a63a |
 | 7:40 | V14 night pull-back (P9) | Wan 3.0, 8 s | 409d5903-64e4-472c-991a-d763180789df |
