@@ -528,10 +528,13 @@ open them from your Higgsfield history or paste an ID into `job_display`.
 - Music bed, chosen take: Google Lyria 3.5 via Picsart, instrumental, 3 credits.
   Picsart job 46aa9c4f-238b-476e-80d8-cd2bdd150a3d (workflow lyria/v2/music).
   Download: https://gcdn.picsart.com/editing-temp/01bcfd3d-5069-42a9-a19e-8368659999f4.mp3?download=true&download_file_name=lyria-3.5.mp3
-  Also imported into the Higgsfield workspace as audio media c27300dc-30fa-417a-8f39-06c2f138d3d4.
-  Loop it to fill 8:00 with a 2-second crossfade at each join.
+  The original is 3:00 long. Imported into the Higgsfield workspace as audio media c27300dc-30fa-417a-8f39-06c2f138d3d4.
+  Episode-ready 8:00 loop (three passes joined with 2-second crossfades, loudness-normalized to -18 LUFS,
+  4-second tail fade) uploaded to Higgsfield as audio media 4898a0b7-7627-4c80-b85d-faf617744453
+  (`jack-lexie-bed-lyria35-8min-loop.mp3`).
 - Alternate take: MiniMax Music v3 via Picsart, instrumental, 5 credits, job 4b08a6f8-9388-4d1a-bec7-0e4a540f8e50
-  (workflow minimax-music/v3), see the Picsart results panel.
+  (workflow minimax-music/v3).
+  Download: https://gcdn.picsart.com/editing-temp/768a5dae-ae9c-42e9-8403-e572dedb6a1b.mp3?download=true&download_file_name=minimax-music-v3.mp3
 - Fallback: the synthesized bed `audio/jack-lexie-bed-72bpm-8min.mp3` (rejected by the owner, kept for reference).
 - Cold-open voiceover, chosen voice Benji (young male preset), Seed Audio 1.0, 14.0 s:
   e095e732-c930-4ed4-b8b1-9b07cf15687e. Earlier takes: John f1e3ed7c-0961-473b-87d5-1ff0ccf2b4dd,
