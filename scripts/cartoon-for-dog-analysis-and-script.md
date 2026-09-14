@@ -543,17 +543,75 @@ open them from your Higgsfield history or paste an ID into `job_display`.
   Line: "This is Jack and Lexie. Jack gets anxious when we leave. Lexie barks about it. So we made them a
   cartoon. Press play... and go." Sit it under the title card from 0:16 to 0:28 at about -6 dB against the bed.
 
+### Full-animation pass (2026-09-14): 23 additional Wan 3.0 clips, 720p
+
+Generated to replace every remaining still-with-pan shot. Wan 3.0 at 720p costs 1.75 credits/second.
+Thirteen further short shots were not generated at all: each directly follows its own hero clip, so
+the assembly re-uses that clip (ping-ponged) instead, which is why only 23 new clips cover 36 shots.
+
+| Shot | Clip length | Screen time | Job ID |
+|---|---|---|---|
+| S1 | 3 s | 3 s | b94ec942-83de-4e9d-b1d5-0c65507d3cba |
+| S5 | 10 s | 10 s | 8badc72a-16ad-46af-a937-9f256fd7584d |
+| S7 | 10 s | 17 s | cfb14b6b-2c6b-42b8-b6f9-8d6f50a879f9 |
+| S9 | 8 s | 8 s | 1043aaa6-e6f6-4187-93c9-e2c9057cb665 |
+| S13 | 10 s | 20 s | 982380cd-3265-47f7-8e86-39b150d73b6e |
+| S14 | 10 s | 10 s | ee5e563c-cc60-4a96-8bcc-fa04dbd2d71a |
+| S16 | 10 s | 13 s | 9587c746-4598-4b79-bf87-56910508de15 |
+| S18 | 10 s | 10 s | 3ac5310a-6b15-4e8c-b8c3-fc92b61c3e20 |
+| S19 | 10 s | 10 s | 2c5b76a0-aef7-44be-8e00-40621c43bb8c |
+| S21 | 8 s | 8 s | 580f0887-0bdf-4e7f-8c2f-3bb5c81a086a |
+| S22 | 10 s | 18 s | 18f0a540-7fc2-45a1-9321-a95d2db59b66 |
+| S23 | 7 s | 7 s | 4c9534f2-dd3a-46c8-912b-ca64223353f8 |
+| S24 | 10 s | 20 s | 2b88cd3d-d0b5-4ac6-b08e-b8b157f916e9 |
+| S25 | 7 s | 7 s | 685ffa78-9758-4476-89aa-917f35513f97 |
+| S27 | 10 s | 10 s | 64cd9a72-7e72-4e6a-94e1-19f3864f51a3 |
+| S28 | 10 s | 25 s | 388e05b1-3f66-49ff-b4fd-e916c9a48df3 |
+| S30 | 10 s | 15 s | c57cc9df-0bdb-4cfe-8bb2-a15a5fdb556d |
+| S32 | 10 s | 18 s | edd37943-8613-4fb9-b51f-8079259fde85 |
+| S34 | 8 s | 8 s | 7f90fdc6-319c-4140-b1d6-83f68e2dc4dd |
+| S35 | 12 s | 12 s | 0e853fe5-d197-450a-a712-c79f88e218ac |
+| S36 | 10 s | 30 s | d2fb6e0d-0d07-427e-be43-45287290ec3d |
+| S38 | 12 s | 12 s | bb1852fc-911c-47ad-b439-6b7887c5d762 |
+| S39 | 8 s | 8 s | 2199a0ee-a5f1-4fe7-8f5f-c50976da0db0 |
+
+Every Wan 3.0 request carries `declined_preset_id` (24bae836-2c4a-48e0-89b6-49fcc0b21612, and
+37ff659c-f2e3-4c9c-a8e7-f30ba0dbbebe for the Earth-zoom suggestion), otherwise the API answers with a
+preset recommendation instead of submitting the job. Submit in groups of three to six with 90 to 150
+seconds between groups; larger bursts hit the rate limiter.
+
+How screen time longer than the clip is filled, with no still frames anywhere:
+
+- **Ping-pong** for shots where the dogs stay in one place. The clip plays forward, then in reverse,
+  then repeats. Motion never stops and the loop has no visible seam.
+- **Forward-only** for the three walking shots (S13, S16, S36). Reversing a walk would make the dogs
+  moon-walk, so these loop head-to-tail instead.
+
 ---
 
 ## 13. Finished episode
 
-- `jack-and-lexie-big-day-out-8min-v2.mp4` (final): 8:00, 1920x1080, 24 fps, H.264 + AAC, 83.4 MB.
-  Higgsfield video media 9da926ba-b37a-4a88-8842-f6e7d71c7c26.
-  URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/9da926ba-b37a-4a88-8842-f6e7d71c7c26.mp4
-- v1 (77be4d61-393a-42b6-aaa5-665551d1a120) had the title band drawn at the top of the frame; superseded.
-- Assembled by `build/build_episode.sh` in the Higgsfield sandbox: 60 segments (stills with slow
-  push-ins, 21:9 plates panned, 14 clips, title card, six chapter cards, end card), concatenated,
-  then the MiniMax Music v3 bed looped to 8:00 at -19 LUFS with Benji's voiceover at 0:14 and a
-  4-second tail fade.
-- Loop versions (1, 4, 12 hours): repeat this file in the editor; drop the title and end cards on the
-  inner repeats if you want a seamless loop.
+**Current version, fully animated (v3).** `jack-and-lexie-big-day-out-8min-v3-animated.mp4`:
+8:00.000, 1920x1080, 24 fps, H.264 + AAC, 150 MB.
+Higgsfield video media 74f34183-99e5-436b-aaa7-d62fdcac6203.
+URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/74f34183-99e5-436b-aaa7-d62fdcac6203.mp4
+
+Assembled by `build/build_v2.sh` in the Higgsfield sandbox: 45 segments, of which 37 are generated
+animation, plus the title card, six chapter cards and the end card. No still images and no camera
+pans remain anywhere in the episode. Audio is unchanged from v2, the MiniMax Music v3 bed looped to
+8:00 at -19 LUFS with Benji's voiceover at 0:14 and a four-second tail fade.
+
+Verified after assembly: duration 480.000 s, video and audio streams both 480.000 s, mean level
+-21.5 dBFS with a -2.0 dBFS peak, no clipping. Frame-difference sampling against a static chapter
+card that measures 0.00 confirms live motion in every shot, from 1.03 in the calmest bedtime shot to
+9.4 in the walking shots where the background scrolls past.
+
+**Superseded versions.**
+
+- v2, 9da926ba-b37a-4a88-8842-f6e7d71c7c26, 83.4 MB. Same 8:00 cut, but only 14 shots were animated
+  and the rest were stills with slow push-ins and panned 21:9 plates. Replaced because the push-ins
+  read as a slideshow and the pans could not sell walking, since the dogs' legs never moved.
+- v1, 77be4d61-393a-42b6-aaa5-665551d1a120. Title band drawn at the top of the frame.
+
+**Loop versions (1, 4, 12 hours).** Repeat the v3 file in the editor. Drop the title and end cards on
+the inner repeats if you want a seamless loop.
