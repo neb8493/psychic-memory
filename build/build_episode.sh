@@ -88,7 +88,7 @@ card(){ # $1 name $2 text $3 dur
 }
 title(){ # title overlay on S3 push: $1 name $2 file $3 dur
   N=$(( $3 * FPS )); printf '%s' "Jack & Lexie's Big Day Out" > seg/t1.txt; printf '%s' "Dog TV in colors your dog can see" > seg/t2.txt
-  ffmpeg -nostdin -loglevel error -y -loop 1 -framerate $FPS -i "src/$2" -t $3 -vf "scale=2016:1134:force_original_aspect_ratio=increase,crop=2016:1134,zoompan=z='1+0.05*on/$N':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=${W}x${HT}:fps=$FPS,drawbox=x=0:y=h-360:w=iw:h=360:color=0x1F4E9A@0.88:t=fill:enable='gte(t,0.4)',drawtext=fontfile='$FONT':textfile=seg/t1.txt:fontcolor=0xFFD23F:fontsize=100:x=(w-tw)/2:y=h-300:alpha='if(lt(t,0.4),0,min(1,(t-0.4)*2))',drawtext=fontfile='$FONTR':textfile=seg/t2.txt:fontcolor=0xFFF6D6:fontsize=44:x=(w-tw)/2:y=h-150:alpha='if(lt(t,0.9),0,min(1,(t-0.9)*2))',format=yuv420p" $ENC "seg/$1.mp4"
+  ffmpeg -nostdin -loglevel error -y -loop 1 -framerate $FPS -i "src/$2" -t $3 -vf "scale=2016:1134:force_original_aspect_ratio=increase,crop=2016:1134,zoompan=z='1+0.05*on/$N':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=${W}x${HT}:fps=$FPS,drawbox=x=0:y=ih-360:w=iw:h=360:color=0x1F4E9A@0.88:t=fill:enable='gte(t,0.4)',drawtext=fontfile='$FONT':textfile=seg/t1.txt:fontcolor=0xFFD23F:fontsize=100:x=(w-tw)/2:y=h-300:alpha='if(lt(t,0.4),0,min(1,(t-0.4)*2))',drawtext=fontfile='$FONTR':textfile=seg/t2.txt:fontcolor=0xFFF6D6:fontsize=44:x=(w-tw)/2:y=h-150:alpha='if(lt(t,0.9),0,min(1,(t-0.9)*2))',format=yuv420p" $ENC "seg/$1.mp4"
 }
 endcard(){ # $1 name $2 dur
   printf '%s' "Jack & Lexie will be back tomorrow." > seg/e1.txt; printf '%s' "Subscribe so your dog never watches alone." > seg/e2.txt; printf '%s' "Made for dogs. Loved by their people." > seg/e3.txt

@@ -547,9 +547,10 @@ open them from your Higgsfield history or paste an ID into `job_display`.
 
 ## 13. Finished episode
 
-- `jack-and-lexie-big-day-out-8min.mp4`: 8:00, 1920x1080, 24 fps, H.264 + AAC, 83.5 MB.
-  Higgsfield video media 77be4d61-393a-42b6-aaa5-665551d1a120.
-  URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/77be4d61-393a-42b6-aaa5-665551d1a120.mp4
+- `jack-and-lexie-big-day-out-8min-v2.mp4` (final): 8:00, 1920x1080, 24 fps, H.264 + AAC, 83.4 MB.
+  Higgsfield video media 9da926ba-b37a-4a88-8842-f6e7d71c7c26.
+  URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/9da926ba-b37a-4a88-8842-f6e7d71c7c26.mp4
+- v1 (77be4d61-393a-42b6-aaa5-665551d1a120) had the title band drawn at the top of the frame; superseded.
 - Assembled by `build/build_episode.sh` in the Higgsfield sandbox: 60 segments (stills with slow
   push-ins, 21:9 plates panned, 14 clips, title card, six chapter cards, end card), concatenated,
   then the MiniMax Music v3 bed looped to 8:00 at -19 LUFS with Benji's voiceover at 0:14 and a
