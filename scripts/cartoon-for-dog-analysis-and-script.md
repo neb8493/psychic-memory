@@ -542,3 +542,17 @@ open them from your Higgsfield history or paste an ID into `job_display`.
   Miles 627debc3-0ea0-48d7-b0f0-a075f027a015.
   Line: "This is Jack and Lexie. Jack gets anxious when we leave. Lexie barks about it. So we made them a
   cartoon. Press play... and go." Sit it under the title card from 0:16 to 0:28 at about -6 dB against the bed.
+
+---
+
+## 13. Finished episode
+
+- `jack-and-lexie-big-day-out-8min.mp4`: 8:00, 1920x1080, 24 fps, H.264 + AAC, 83.5 MB.
+  Higgsfield video media 77be4d61-393a-42b6-aaa5-665551d1a120.
+  URL: https://d2ol7oe51mr4n9.cloudfront.net/user_3J8Na3IQJEUtBerYQQOxXHpH4Y4/77be4d61-393a-42b6-aaa5-665551d1a120.mp4
+- Assembled by `build/build_episode.sh` in the Higgsfield sandbox: 60 segments (stills with slow
+  push-ins, 21:9 plates panned, 14 clips, title card, six chapter cards, end card), concatenated,
+  then the MiniMax Music v3 bed looped to 8:00 at -19 LUFS with Benji's voiceover at 0:14 and a
+  4-second tail fade.
+- Loop versions (1, 4, 12 hours): repeat this file in the editor; drop the title and end cards on the
+  inner repeats if you want a seamless loop.
