@@ -14,9 +14,9 @@ rediscovered.
 ## Quick start
 
 ```bash
-export ELEVENLABS_API_KEY='...'      # shell profile, never the repo
-export ELEVENLABS_VOICE_ID='...'
+cp .env.example .env                  # then fill in key and voice id
 pip install requests pydub numpy      # ffmpeg must be on PATH
 
 python render.py --dry-run            # free, proves timing
+python render.py --list-voices        # free, names -> voice ids
 ```

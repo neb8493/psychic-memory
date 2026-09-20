@@ -15,12 +15,21 @@ hash, so re-running after changing one line only bills for that line.
 
 Usage
     python render.py --dry-run                     # parse + timing, no API calls
+    python render.py --list-voices                 # names and ids on the account
     python render.py --movement 1 --out audition.wav
     python render.py --out narration.wav
 
 Environment
     ELEVENLABS_API_KEY   required unless --dry-run
     ELEVENLABS_VOICE_ID  default voice, overridable with --voice
+
+    Both are read from a .env file beside this script if one exists, so the
+    key does not have to be exported in every shell. A real environment
+    variable always wins over the file. .env is gitignored: the key belongs
+    on your machine, never in the repo. See .env.example.
+
+    --voice accepts either a voice id or a voice name as it appears in the
+    ElevenLabs library; a name is resolved to an id before rendering.
 
 Requires: requests, pydub, and ffmpeg on PATH.
 """
@@ -39,6 +48,10 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 API_URL = "https://api.elevenlabs.io/v1/text-to-speech/{voice_id}"
+VOICES_URL = "https://api.elevenlabs.io/v1/voices"
+
+# Credentials are read from here when they are not already in the environment.
+ENV_FILE = Path(__file__).resolve().parent / ".env"
 
 # eleven_multilingual_v2 is the stable long-form model. The expressive models
 # carry more prosodic variance per call, and variance at 3am is a wake trigger.
@@ -61,6 +74,17 @@ MOVEMENT_RE = re.compile(r"^##\s*(.+)$")
 # Words per minute used only by --dry-run to project runtime. Measured pace for
 # this register is 78-85; 82 is the middle.
 DEFAULT_WPM = 82.0
+
+MISSING_KEY = (
+    "No ELEVENLABS_API_KEY.\n"
+    "Put it in .env beside this script (see .env.example), or export it in\n"
+    "your shell. .env is gitignored."
+)
+
+MISSING_VOICE = (
+    "No voice. Put ELEVENLABS_VOICE_ID in .env, or pass --voice with an id\n"
+    "or a voice name. Run --list-voices to see what is on the account."
+)
 
 MAX_STITCH_IDS = 3              # API accepts at most 3 previous_request_ids
 RETRY_STATUS = {429, 500, 502, 503, 504}
@@ -132,6 +156,89 @@ def parse_script(path: Path) -> Script:
     if not script.speech:
         raise ValueError(f"{path}: no speech lines found")
     return script
+
+
+def load_dotenv(path: Path = ENV_FILE) -> None:
+    """Read KEY=value lines from .env into the environment.
+
+    A variable already set in the real environment is left alone, so an
+    export in the shell still overrides the file. Called before the argument
+    parser is built, because --voice defaults off ELEVENLABS_VOICE_ID.
+    """
+    if not path.exists():
+        return
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#"):
+            continue
+        if line.startswith("export "):
+            line = line[len("export "):].lstrip()
+        key, sep, value = line.partition("=")
+        if not sep:
+            continue
+        key, value = key.strip(), value.strip()
+        if len(value) >= 2 and value[0] == value[-1] and value[0] in "\"'":
+            value = value[1:-1]
+        if key and key not in os.environ:
+            os.environ[key] = value
+
+
+def fetch_voices(api_key: str) -> list[dict]:
+    """Every voice available to the account."""
+    import requests
+
+    response = requests.get(VOICES_URL, headers={"xi-api-key": api_key},
+                            timeout=30)
+    if response.status_code != 200:
+        raise RuntimeError(
+            f"ElevenLabs returned {response.status_code} listing voices: "
+            f"{response.text[:400]}"
+        )
+    return response.json().get("voices", [])
+
+
+def print_voices(voices: list[dict]) -> None:
+    if not voices:
+        print("No voices on this account.")
+        return
+    width = max(len(v.get("name", "")) for v in voices)
+    print(f"{'NAME'.ljust(width)}  VOICE ID                  CATEGORY")
+    for voice in voices:
+        print(f"{voice.get('name', '').ljust(width)}  "
+              f"{voice.get('voice_id', ''):<24}  "
+              f"{voice.get('category', '')}")
+    print("\nPut the id you want in .env as ELEVENLABS_VOICE_ID, "
+          "or pass --voice.")
+
+
+def resolve_voice(wanted: str, api_key: str) -> str:
+    """Accept a voice id or a voice name and return the id.
+
+    Voice ids are opaque, so anything that is not an exact id match is looked
+    up by name. Matching is case-insensitive; an ambiguous name is an error
+    rather than a coin flip, because the wrong voice is 24 minutes of wasted
+    credit and a re-render.
+    """
+    voices = fetch_voices(api_key)
+    by_id = {v.get("voice_id", ""): v for v in voices}
+    if wanted in by_id:
+        return wanted
+
+    hits = [v for v in voices if v.get("name", "").strip().lower() == wanted.strip().lower()]
+    if not hits:
+        hits = [v for v in voices if wanted.strip().lower() in v.get("name", "").lower()]
+
+    if len(hits) == 1:
+        voice = hits[0]
+        print(f"Voice: {voice.get('name')} ({voice.get('voice_id')})")
+        return voice["voice_id"]
+
+    if not hits:
+        raise SystemExit(
+            f"No voice matches {wanted!r}. Run --list-voices to see the account."
+        )
+    names = ", ".join(f"{v.get('name')} ({v.get('voice_id')})" for v in hits)
+    raise SystemExit(f"{wanted!r} matches more than one voice: {names}")
 
 
 def cache_key(text: str, prev_text: str, next_text: str, voice_id: str,
@@ -326,13 +433,17 @@ def dry_run(script: Script, wpm: float) -> None:
 
 
 def main() -> int:
+    # Before the parser is built: --voice defaults off ELEVENLABS_VOICE_ID.
+    load_dotenv()
+
     parser = argparse.ArgumentParser(description=__doc__,
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("script", nargs="?", default="script_a.txt")
     parser.add_argument("--out", default="narration.wav")
     parser.add_argument("--report", default="timings.csv")
     parser.add_argument("--cache", default=".tts-cache")
-    parser.add_argument("--voice", default=os.environ.get("ELEVENLABS_VOICE_ID", ""))
+    parser.add_argument("--voice", default=os.environ.get("ELEVENLABS_VOICE_ID", ""),
+                        help="voice id, or a voice name to look up")
     parser.add_argument("--model", default=DEFAULT_MODEL)
     parser.add_argument("--output-format", default=DEFAULT_OUTPUT_FORMAT)
     parser.add_argument("--movement", type=int,
@@ -341,7 +452,17 @@ def main() -> int:
                         help="pace assumption for --dry-run only")
     parser.add_argument("--dry-run", action="store_true",
                         help="parse and project timing without calling the API")
+    parser.add_argument("--list-voices", action="store_true",
+                        help="print the account's voices and their ids, then exit")
     args = parser.parse_args()
+
+    if args.list_voices:
+        api_key = os.environ.get("ELEVENLABS_API_KEY", "")
+        if not api_key:
+            print(MISSING_KEY, file=sys.stderr)
+            return 1
+        print_voices(fetch_voices(api_key))
+        return 0
 
     path = Path(args.script)
     if not path.exists():
@@ -368,11 +489,13 @@ def main() -> int:
 
     api_key = os.environ.get("ELEVENLABS_API_KEY", "")
     if not api_key:
-        print("Set ELEVENLABS_API_KEY", file=sys.stderr)
+        print(MISSING_KEY, file=sys.stderr)
         return 1
     if not args.voice:
-        print("Set ELEVENLABS_VOICE_ID or pass --voice", file=sys.stderr)
+        print(MISSING_VOICE, file=sys.stderr)
         return 1
+
+    args.voice = resolve_voice(args.voice, api_key)
 
     render(script, args, api_key)
     return 0

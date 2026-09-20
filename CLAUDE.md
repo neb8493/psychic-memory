@@ -69,17 +69,23 @@ the working pipeline.
 ## Commands
 
 ```bash
-export ELEVENLABS_API_KEY='...'      # shell profile, never the repo
-export ELEVENLABS_VOICE_ID='...'
+cp .env.example .env                  # then fill in key and voice id
 pip install requests pydub numpy      # ffmpeg must be on PATH
 
 python render.py --dry-run                        # free, proves timing
+python render.py --list-voices                    # free, names -> voice ids
 python render.py --movement 1 --out audition.wav  # 493 chars
 python render.py --out narration.wav              # 4,119 chars
 
 python assemble.py rain.wav --analyze-only        # vet a rain source
 python assemble.py rain.wav --narration narration.wav --still art/rain_window_1080_graded.png
 ```
+
+Credentials live in `.env` beside `render.py`, which is gitignored; a shell
+export still overrides it. The key never goes in the repo, in a commit, or in
+a chat transcript — if one leaks, rotate it in the ElevenLabs dashboard.
+`--voice` takes a voice name as well as an id, so `--voice Angus` works once
+`--list-voices` has told you the name.
 
 ## Hard-won details — do not rediscover these
 
