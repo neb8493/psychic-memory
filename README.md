@@ -19,4 +19,5 @@ pip install requests pydub numpy      # ffmpeg must be on PATH
 
 python render.py --dry-run            # free, proves timing
 python render.py --list-voices        # free, names -> voice ids
+python render.py --check              # free, gates the render
 ```

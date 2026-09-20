@@ -16,6 +16,7 @@ hash, so re-running after changing one line only bills for that line.
 Usage
     python render.py --dry-run                     # parse + timing, no API calls
     python render.py --list-voices                 # names and ids on the account
+    python render.py --check                       # key, licence, quota, voice
     python render.py --movement 1 --out audition.wav
     python render.py --out narration.wav
 
@@ -49,6 +50,12 @@ from pathlib import Path
 
 API_URL = "https://api.elevenlabs.io/v1/text-to-speech/{voice_id}"
 VOICES_URL = "https://api.elevenlabs.io/v1/voices"
+SUBSCRIPTION_URL = "https://api.elevenlabs.io/v1/user/subscription"
+
+# Tiers that carry no commercial licence. Rendering the channel's narration on
+# one of these produces audio that cannot legally be published, so --check
+# refuses rather than warns.
+NON_COMMERCIAL_TIERS = {"free", "trial"}
 
 # Credentials are read from here when they are not already in the environment.
 ENV_FILE = Path(__file__).resolve().parent / ".env"
@@ -183,6 +190,68 @@ def load_dotenv(path: Path = ENV_FILE) -> None:
             os.environ[key] = value
 
 
+def fetch_subscription(api_key: str) -> dict:
+    """Tier and character quota. Free call, and the only way to see the tier."""
+    import requests
+
+    response = requests.get(SUBSCRIPTION_URL, headers={"xi-api-key": api_key},
+                            timeout=30)
+    if response.status_code != 200:
+        raise RuntimeError(
+            f"ElevenLabs returned {response.status_code} reading the "
+            f"subscription: {response.text[:400]}"
+        )
+    return response.json()
+
+
+def preflight(script: Script, voice: str, api_key: str) -> int:
+    """Prove the render will work and be publishable, without spending a credit.
+
+    Four things go wrong here, all of them before any audio exists: the key is
+    wrong, the tier carries no commercial licence, the quota will not cover the
+    script, or the voice id points at something other than the cast voice.
+    """
+    needed = script.characters
+    ok = True
+
+    try:
+        sub_info = fetch_subscription(api_key)
+    except RuntimeError as exc:
+        print(f"Key      FAIL  {exc}")
+        return 1
+    print(f"Key      ok    ...{api_key[-4:]}")
+
+    tier = str(sub_info.get("tier", "") or "unknown")
+    if tier.lower() in NON_COMMERCIAL_TIERS:
+        print(f"Licence  FAIL  tier {tier!r} carries no commercial licence; "
+              f"audio rendered on it cannot be published")
+        ok = False
+    else:
+        print(f"Licence  ok    tier {tier!r}")
+
+    used = sub_info.get("character_count")
+    limit = sub_info.get("character_limit")
+    if isinstance(used, int) and isinstance(limit, int):
+        left = limit - used
+        verdict = "ok   " if left >= needed else "FAIL "
+        ok = ok and left >= needed
+        print(f"Credits  {verdict} {left:,} of {limit:,} left, "
+              f"this render needs {needed:,}")
+    else:
+        print(f"Credits  ?     quota not reported; this render needs {needed:,}")
+
+    try:
+        voice_id = resolve_voice(voice, api_key, announce=False)
+    except SystemExit as exc:
+        print(f"Voice    FAIL  {exc}")
+        return 1
+    names = {v.get("voice_id"): v.get("name") for v in fetch_voices(api_key)}
+    print(f"Voice    ok    {names.get(voice_id, '?')} ({voice_id})")
+
+    print("\nReady." if ok else "\nNot ready — fix the FAIL lines above.")
+    return 0 if ok else 1
+
+
 def fetch_voices(api_key: str) -> list[dict]:
     """Every voice available to the account."""
     import requests
@@ -211,7 +280,7 @@ def print_voices(voices: list[dict]) -> None:
           "or pass --voice.")
 
 
-def resolve_voice(wanted: str, api_key: str) -> str:
+def resolve_voice(wanted: str, api_key: str, announce: bool = True) -> str:
     """Accept a voice id or a voice name and return the id.
 
     Voice ids are opaque, so anything that is not an exact id match is looked
@@ -230,7 +299,8 @@ def resolve_voice(wanted: str, api_key: str) -> str:
 
     if len(hits) == 1:
         voice = hits[0]
-        print(f"Voice: {voice.get('name')} ({voice.get('voice_id')})")
+        if announce:
+            print(f"Voice: {voice.get('name')} ({voice.get('voice_id')})")
         return voice["voice_id"]
 
     if not hits:
@@ -454,6 +524,8 @@ def main() -> int:
                         help="parse and project timing without calling the API")
     parser.add_argument("--list-voices", action="store_true",
                         help="print the account's voices and their ids, then exit")
+    parser.add_argument("--check", action="store_true",
+                        help="verify key, licence, quota and voice without rendering")
     args = parser.parse_args()
 
     if args.list_voices:
@@ -494,6 +566,9 @@ def main() -> int:
     if not args.voice:
         print(MISSING_VOICE, file=sys.stderr)
         return 1
+
+    if args.check:
+        return preflight(script, args.voice, api_key)
 
     args.voice = resolve_voice(args.voice, api_key)
 

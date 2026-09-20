@@ -74,6 +74,7 @@ pip install requests pydub numpy      # ffmpeg must be on PATH
 
 python render.py --dry-run                        # free, proves timing
 python render.py --list-voices                    # free, names -> voice ids
+python render.py --check                          # free, gates the render
 python render.py --movement 1 --out audition.wav  # 493 chars
 python render.py --out narration.wav              # 4,119 chars
 
@@ -103,6 +104,11 @@ a chat transcript — if one leaks, rotate it in the ElevenLabs dashboard.
   video. B-frames help; `-bf 0` nearly doubled it again.
 - **ffmpeg's `volumedetect` writes at info level.** `-v error` silently
   swallows its output. Cost an hour once.
+- **`--check` gates the render.** It reads the subscription endpoint and
+  refuses on a non-commercial tier, on a quota that will not cover the
+  script, or on a voice id that does not resolve. All free. Run it before
+  every paid render; the four things it checks are the four that have gone
+  wrong, and all of them are invisible until after the credits are spent.
 - **ElevenLabs free tier carries no commercial licence at all.** Starter
   (~$6/mo, 30k credits) covers the entire six-upload first series with room to
   spare. Creator's extras (192 kbps, professional voice cloning) do not apply
