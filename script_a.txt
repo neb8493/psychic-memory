@@ -1,0 +1,149 @@
+# The 3AM Sessions — Episode 1, Script A
+# Lines beginning with # are comments and are never spoken.
+# [P n] is n seconds of silence, built in the edit, never sent to the TTS.
+# Every other non-empty line is one spoken segment and one API call.
+
+## Movement 1 — Cold open
+
+[P 12]
+You're awake.
+[P 3]
+It's the middle of the night, and you're awake, and some part of you has already started doing the math.
+[P 4]
+Let's put that down.
+[P 5]
+Not forever. Just for the length of this. For the next little while, you don't have to fall asleep. That's not the job anymore.
+[P 4]
+Lying here, warm, breathing — that's rest. And it's already happening. You didn't have to do anything to start it.
+[P 6]
+So. Nothing to fix.
+[P 3]
+Nowhere to be.
+[P 8]
+If you need to shift, shift. Pull the blanket up, turn the pillow over. I'll wait.
+[P 10]
+
+## Movement 2 — The permission reframe
+
+Here's the thing about three in the morning.
+[P 3]
+The waking up isn't usually the problem. Bodies surface in the night. They always have.
+[P 4]
+The problem is what arrives about ninety seconds later. The clock. The arithmetic. Four hours and twenty minutes, if I fall asleep right now.
+[P 5]
+And then trying. Trying to sleep, which is the one thing that has never once worked.
+[P 6]
+So we're not going to do that tonight.
+[P 4]
+You're allowed to be awake. Right now, at this hour, awake is allowed. Nothing is being lost. Nothing is being wasted.
+[P 5]
+Tomorrow will be what it is, and you will meet it the way you always have — a little tired, maybe, and entirely capable of it. You've done it before. You'll do it again.
+[P 6]
+There is nothing to solve at this hour.
+[P 4]
+Whatever your mind hands you in the next few minutes — the conversation, the email, the thing you should have said — none of it can be finished now. It isn't available to you. The shops are closed.
+[P 6]
+So when a thought comes, you don't have to push it away. Just let it be the wrong time for it.
+[P 8]
+And if you'd rather not follow my voice at all — if you'd rather just lie here with the rain — that's fine too. I'll keep going quietly either way. There's no wrong way to do this.
+[P 10]
+Let your eyes be closed, if they aren't already. Let them be heavy rather than shut. There's a difference, and your face knows it.
+[P 12]
+
+## Movement 3 — Breath
+
+Let's use the breath for a minute. Not to control it. Just to lean on it.
+[P 4]
+Breathe in, gently, through the nose. Two, three, four.
+[P 2]
+And out, slowly. Two, three, four, five, six.
+[P 5]
+That's the whole idea. The out-breath a little longer than the in. That's all.
+[P 4]
+Again. In, easy.
+[P 4]
+And out, unhurried. Let it empty itself.
+[P 8]
+Now stop counting. Let the breath find its own size.
+[P 6]
+Just a little longer on the way out. Nothing forced. If a breath wants to be shallow, let it be shallow.
+[P 10]
+The out-breath is the one that does the settling. You don't have to believe that. Your body already does.
+[P 12]
+And if the breathing starts to feel like work, drop it. Forget the whole thing. The rain is still there.
+[P 15]
+Some of the tightness is in the jaw. It usually is, at this hour.
+[P 4]
+Let the back teeth come apart. Just slightly.
+[P 6]
+And let the tongue go soft in the mouth. Not pressed to the roof. Just resting.
+[P 10]
+That's it. Nothing else to do.
+[P 20]
+
+## Movement 4 — Downward body scan
+
+We'll travel down through you now. Slowly, from the top.
+[P 6]
+The scalp. The crown of your head, against the pillow.
+[P 8]
+The forehead. Let it be wide. Let it be smooth.
+[P 10]
+The space between your eyebrows, which has been holding something since about lunchtime.
+[P 10]
+The eyes. Heavy. Sinking back a little.
+[P 12]
+The cheeks. The jaw again — it drifts back up when you're not looking.
+[P 12]
+The throat. Soft.
+[P 10]
+The back of the neck, and the place where the neck meets the pillow. Let the pillow take the weight of your head. All of it. It's holding you whether you let it or not.
+[P 15]
+The shoulders. Away from the ears.
+[P 12]
+Down the upper arms. The elbows. The forearms.
+[P 12]
+The hands. The palms. Each finger, heavier than the last.
+[P 15]
+The chest, rising and falling without you.
+[P 12]
+The belly, soft. Nothing held in.
+[P 12]
+The lower back, spreading into the bed.
+[P 15]
+The hips. Heavy.
+[P 12]
+The thighs. Long and loose.
+[P 12]
+The knees. The calves.
+[P 15]
+The ankles.
+[P 10]
+And the feet. Right down to the ends of your toes.
+[P 20]
+Now the whole of you at once. Everything from the crown of your head to your feet, held by the bed, going nowhere.
+[P 25]
+If your mind wandered off somewhere in there, that's fine. That's what it's for. It'll wander again, and I'll still be here.
+[P 30]
+
+## Movement 5 — The fade
+
+Nothing is required of you now.
+[P 20]
+You're already resting. It started a while ago.
+[P 25]
+The night is long. There's plenty of it left.
+[P 30]
+You don't have to sleep.
+[P 30]
+And you don't have to stay awake either.
+[P 35]
+Wherever you go from here is fine.
+[P 40]
+I'll leave the rain on.
+[P 45]
+Heavy.
+[P 50]
+Warm.
+[P 60]
+Here.

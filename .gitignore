@@ -1,0 +1,25 @@
+# Rendered audio and video — regenerate with render.py / assemble.py
+*.wav
+*.mp4
+*.mp3
+narration.wav
+audition.wav
+master.mp4
+rainbed.wav
+
+# Pipeline working directories and caches
+build/
+.tts-cache/
+timings.csv
+
+# Source rain recordings (large, licensed — keep out of git)
+rain/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets — API keys live in the shell profile, never here
+.env
