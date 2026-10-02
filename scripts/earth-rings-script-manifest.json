@@ -48,7 +48,7 @@
   {
    "n": 1,
    "arc_role": "hook",
-   "vo_line": "Earth once had a ring. Four hundred sixty six million years ago a band of rock circled our planet and helped freeze it.",
+   "vo_line": "Earth may have had a ring. Four hundred sixty six million years ago, rock may have circled our planet and helped freeze it.",
    "location": "orbit_space",
    "through_line_state": "a dim complete band of rock around the equator",
    "shots": [
@@ -125,7 +125,7 @@
   {
    "n": 5,
    "arc_role": "build",
-   "vo_line": "For a rubble pile asteroid that boundary sits around eighteen thousand kilometers above the ground, and our visitor crosses it at full speed.",
+   "vo_line": "For a rubble pile asteroid that boundary sits around eighteen thousand kilometers from Earth's center, and our visitor crosses it at full speed.",
    "location": "orbit_space",
    "through_line_state": "the asteroid touching the dashed boundary line",
    "shots": [
@@ -164,7 +164,7 @@
   {
    "n": 7,
    "arc_role": "build",
-   "vo_line": "Within months the debris flattens into a disk over the equator, only ten meters thick, roughly the height of a three story building.",
+   "vo_line": "Within months the debris flattens into a disk over the equator, perhaps ten meters thick, roughly the height of a three story building.",
    "location": "backyard_dusk",
    "through_line_state": "a thin bright band completing overhead",
    "shots": [
@@ -221,7 +221,7 @@
   {
    "n": 10,
    "arc_role": "build",
-   "vo_line": "Past sixty degrees the arch sits low, and it glows all night because Saturn's rings reflect four times more sunlight than the Moon.",
+   "vo_line": "Past sixty degrees the arch sits low. For comparison, Saturn's icy rings reflect about four times more sunlight than our own Moon does.",
    "location": "glacier_valley",
    "through_line_state": "a low flat arch hugging the horizon",
    "shots": [
@@ -374,7 +374,7 @@
   {
    "n": 18,
    "arc_role": "build",
-   "vo_line": "This is not a guess, because in two thousand twenty four a Monash University team examined twenty one craters from an ancient bombardment.",
+   "vo_line": "The evidence here is real, because in two thousand twenty four a Monash University team examined twenty one craters from an ancient bombardment.",
    "location": "science_lab",
    "through_line_state": "twenty one red dots in a belt on the desk globe",
    "shots": [
@@ -414,7 +414,7 @@
   {
    "n": 20,
    "arc_role": "build",
-   "vo_line": "Random strikes never cluster like that, but ring fallout does, and late in that ring's life the planet slid into a deep freeze.",
+   "vo_line": "Random strikes almost never cluster like that, but ring fallout would, and late in the ring's life the planet slid into deep freeze.",
    "location": "ancient_sea_shore",
    "through_line_state": "the old ring thinner, frost creeping under it",
    "shots": [
@@ -528,14 +528,14 @@
   {
    "n": 26,
    "arc_role": "build",
-   "vo_line": "Weather satellites fall silent, and the navigation fleet twenty thousand kilometers up sits at the ring's outer edge, under fire.",
+   "vo_line": "Polar weather satellites fall silent, while the navigation fleet twenty thousand kilometers up sits beyond the ring's outer edge, out of reach.",
    "location": "control_room",
-   "through_line_state": "the ring's outer edge touching the navigation shell on the display",
+   "through_line_state": "the navigation shell sitting well beyond the ring's outer edge on the display",
    "shots": [
     "MEDIUM, static: Theo watches weather map screens flicker to grey, one after another.",
-    "ECU, macro: a phone on the console shows a spinning location marker that never locks.",
+    "ECU, macro: a phone on the console shows a weather app frozen on a grey 'no new data' card.",
     "CU, low angle: Theo's reflection in the dark screen as more dots wink out.",
-    "WIDE, slow push-in: the wall display, a second shell of satellites sitting right at the ring's outer edge, sparks flickering across it.",
+    "WIDE, slow push-in: the wall display, low satellites sparking out inside the ring while a second shell of satellites far beyond its outer edge glows steady.",
     "MEDIUM, gentle drift: Theo sets the phone face down, the display holding."
    ],
    "assets_used": [

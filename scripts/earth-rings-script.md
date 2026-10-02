@@ -49,7 +49,7 @@ The highest-performing family in the last two years is #1 (Earth-scale What If).
 ```
 TITLE OPTIONS:
   1) Earth Gets a Ring and Winter Never Ends
-  2) Earth Had a Ring 466 Million Years Ago. Here's What It Did
+  2) Earth May Have Had a Ring 466 Million Years Ago. Here's What It Did
   3) What If Earth Had Rings Like Saturn?
 THUMBNAIL LINE: THE SHADOW FALLS
 TARGET LENGTH: 8.5 min (1,230 words VO at 145 wpm; runs ~10 min at the reference channel's slower ~120 wpm delivery)
@@ -59,8 +59,8 @@ NICHE: explainer (Earth-scale What If)
 ### [00:00] HOOK
 
 **VO:**
-466 million years ago, Earth almost certainly had a ring. Not a small one. A band of rock stretching thousands of kilometers into space, sitting right above the equator.
-And the best evidence we have says that ring helped freeze the planet.
+466 million years ago, Earth may have had a ring. Not a small one. A band of rock stretching thousands of kilometers into space, sitting right above the equator.
+And the scientists who found the evidence think that ring may have helped freeze the planet.
 So here is the question. Give Earth a ring again, tonight. Same size. Same place. Except this time there are 14,000 satellites and 8 billion people underneath it.
 
 **VISUAL:**
@@ -74,17 +74,17 @@ So here is the question. Give Earth a ring again, tonight. Same size. Same place
 It starts with an asteroid about 12 kilometers wide. That's the size of a large city.
 It doesn't hit us. It misses. But it passes too close.
 Every planet has an invisible line called the Roche limit. Cross it, and the planet's gravity pulls harder on the near side of an object than on the far side. The object stretches. Then it tears.
-For a loose, rubble-pile asteroid, Earth's Roche limit sits about 18,000 kilometers above the surface.
+For a loose, rubble-pile asteroid, Earth's Roche limit sits about 18,000 kilometers from the center of the planet. That's roughly 11,600 kilometers above your head.
 The asteroid crosses that line and comes apart into billions of fragments. Each piece keeps moving at orbital speed, so none of it falls straight down. Instead, it spreads into a flat disk in the plane of the equator.
-Within weeks, you have a ring. It runs from just above the atmosphere out to roughly 18,000 kilometers. And it is astonishingly thin. Saturn's main rings are around 10 meters thick in most places, and Earth's would be similar.
-A sheet of rock 18,000 kilometers wide and about as thick as a three-story building.
+Within months, you have a ring. It runs from just above the atmosphere out to roughly 11,600 kilometers up. And it is astonishingly thin. Saturn's main rings are around 10 meters thick in most places, and Earth's might be similar.
+A sheet of rock more than 11,000 kilometers wide and perhaps as thick as a three-story building.
 From the ground, it appears almost overnight.
 
 **VISUAL:**
 - 2D animation: a gray, lumpy asteroid drifting toward Earth on a curved path that skims past the planet.
-- A dashed circle labeled "Roche limit, ~18,000 km" appears around Earth. The asteroid crosses it.
+- A dashed circle labeled "Roche limit, ~18,000 km from Earth's center" appears around Earth. The asteroid crosses it.
 - The asteroid elongates like taffy, then breaks into a spray of fragments that smear into a flat disk.
-- Side-on view: the disk is drawn as a single hairline. Callout: "Width: 18,000 km. Thickness: ~10 m."
+- Side-on view: the disk is drawn as a single hairline. Callout: "Width: ~11,500 km. Thickness: ~10 m?"
 - Cut to a person in a backyard at dusk looking up as a faint bright band appears.
 
 ### [01:43] SEGMENT 2. What it looks like from your street
@@ -96,7 +96,7 @@ Move north to a city like New York, at about 41 degrees latitude, and the geomet
 Move to the far north, past 60 degrees, and the arch flattens toward the horizon.
 And it's bright. Saturn's rings reflect roughly 4 times more sunlight than the Moon does, because they're mostly water ice. Earth's ring would be rock and dust, so dimmer than that. But still enough to light up a night the way a full Moon does. Except this glow never sets and never changes phase.
 There's one strange exception. At night, Earth casts its own shadow into space. On the equator, around midnight, that shadow falls across the part of the ring directly above you.
-So the brightest object in the sky goes black overhead, every night, at the same time.
+So for much of the year, the brightest object in the sky goes black overhead, every night, at the same time.
 But the ring isn't only in the sky. It's also on the ground.
 
 **VISUAL:**
@@ -113,8 +113,8 @@ It also means the ring, which sits over the equator, is never lined up with the 
 In June, the northern hemisphere leans toward the Sun. Sunlight comes in from the north side of the ring plane, and the ring throws its shadow onto the southern hemisphere.
 Southern winter gets a second layer of darkness on top of the normal one. Then in December it flips, and the shadow lands on the north.
 The shadow is widest and reaches farthest from the equator exactly at the solstices. Peak winter, peak shade.
-This is not a guess. It's the whole reason scientists think the ancient ring mattered.
-In 2024, a team led by Andy Tomkins at Monash University looked at 21 impact craters from a 40-million-year stretch of unusually heavy bombardment. Every single one sits within 30 degrees of the equator. Over 70 percent of Earth's continental crust lies outside that band. Random hits don't cluster like that. Ring fallout does.
+This part isn't a guess. It's the whole reason scientists think the ancient ring mattered.
+In 2024, a team led by Andy Tomkins at Monash University looked at 21 impact craters from a 40-million-year stretch of unusually heavy bombardment. Every single one sits within 30 degrees of the equator. Over 70 percent of Earth's continental crust lies outside that band. Random hits almost never cluster like that. Ring fallout would.
 And about 445 million years ago, near the end of that ring's life, the planet slid into the Hirnantian glaciation. One of the coldest periods in the last 500 million years.
 So a modern ring means colder, longer winters in both hemispheres.
 And here is what nobody in the northern hemisphere is thinking about during their first ring winter. The debris falling out of the sky is about to become a bigger problem than the cold.
@@ -131,21 +131,20 @@ And here is what nobody in the northern hemisphere is thinking about during thei
 Right now there are more than 14,500 active satellites around Earth.
 Most of them, including one company's internet constellation of over 10,000 spacecraft, orbit between about 480 and 550 kilometers up.
 That is inside the ring.
-Ring particles move at roughly 7 to 8 kilometers per second. So does a satellite. But they're not all moving in the same direction, and a satellite in a polar orbit crosses the ring plane twice every 90 minutes.
+Ring particles move at roughly 7 to 8 kilometers per second. So does a satellite. But the ring all circles one way, and a satellite in a polar orbit cuts across it at right angles, twice every 90 minutes.
 A grain of sand at those speeds hits like a bullet. A fist-sized rock takes out a spacecraft.
-The internet constellations go first. Then weather satellites. Then the GPS constellation, which orbits at about 20,200 kilometers, sits right at the ring's outer edge and gets peppered from below.
-The geostationary satellites are safe. They sit at 35,786 kilometers, well above the ring.
-But every rocket that needs to reach them has to fly through the ring to get there.
-So the plan becomes: launch from far north or far south, where the ring is thin from your angle, and punch through the plane as fast as possible.
-Expect to lose most of what's up there within the first year. Global positioning, satellite TV, most weather forecasting, most of the world's long-distance internet.
+The internet constellations go first. Then the polar weather satellites.
+The GPS constellation, at about 20,200 kilometers, sits beyond the ring's outer edge. So do the geostationary satellites, at 35,786 kilometers.
+But every rocket that needs to reach them has to fly through the ring to get there. Every launch becomes a gamble.
+Expect to lose most of low orbit within the first year. Satellite internet, polar weather data, the space station. And no easy way to replace any of it.
 And then the ring starts coming down.
 
 **VISUAL:**
 - Earth wrapped in a dense cloud of satellite dots. The ring slices right through the lowest layer.
-- Side view with altitude ladder: "480 to 550 km: internet constellations", "20,200 km: GPS", "35,786 km: geostationary". Ring drawn as a band from ~100 km to 18,000 km.
+- Side view with altitude ladder: "480 to 550 km: internet constellations", "20,200 km: GPS", "35,786 km: geostationary". Ring drawn as a band from ~100 km to ~11,600 km, with GPS clearly above it.
 - A tiny satellite crossing the ring plane; a spark; debris.
-- A rocket launching from a high-latitude pad, climbing steeply, crossing the thin ring edge-on.
-- Phone screen: "No GPS signal." Weather map goes gray.
+- A rocket launching, climbing steeply, crossing the thin ring edge-on.
+- Weather map goes gray. A satellite-internet dish shows "No connection."
 
 ### [06:21] SEGMENT 5. Ring rain
 
@@ -156,7 +155,7 @@ The way it fades is the problem. Particles on the inner edge brush the top of th
 Small grains burn up as shooting stars. That's every night, all night, for as long as the ring lasts. The greatest meteor shower in human history becomes normal.
 Larger pieces don't burn up. They hit.
 This is the 40-million-year bombardment the crater record shows. All of it landing in a belt 30 degrees either side of the equator.
-Look at who lives in that belt today. Lagos. Mumbai. Jakarta. Mexico City. Nairobi. Manila. Bogotá. Roughly 40 percent of the human population.
+Look at who lives in that belt today. Lagos. Mumbai. Jakarta. Mexico City. Nairobi. Manila. Bogotá. Billions of people.
 The ring the Ordovician asteroid made was fed by a body maybe 12 kilometers across. And it took tens of millions of years to rain out.
 Nobody standing under it would ever see it end.
 
@@ -185,9 +184,9 @@ And there's one more detail that changes how you should look at the night sky.
 **VO:**
 About 4.5 billion years ago, a Mars-sized body slammed into the young Earth.
 The debris didn't scatter into space. It formed a disk around the planet. A ring of molten rock and vapor.
-Then that ring pulled itself together, possibly in a matter of hours, into a single object.
+Then that ring pulled itself together into a single object.
 You can see it tonight.
-The Moon is what's left of the last time Earth had a ring.
+The Moon is what's left of the first time Earth had a ring.
 
 **VISUAL:**
 - Fiery collision, then a glowing debris disk around a red-hot Earth.
@@ -200,12 +199,12 @@ The Moon is what's left of the last time Earth had a ring.
 
 | Claim in script | Status | Source(s) |
 |---|---|---|
-| Earth probably had a ring ~466 million years ago | Verified. Published hypothesis, not consensus; script says "almost certainly" once in hook and "the best evidence we have". Consider softening to "probably" if the channel wants a conservative voice. | Tomkins et al., Earth and Planetary Science Letters 2024; Monash University news; phys.org; CNN; Eos |
+| Earth may have had a ring ~466 million years ago | Published hypothesis, not consensus. Script now says "may have" throughout; the cooling link is the authors' speculation and is attributed to them. | Tomkins et al., Earth and Planetary Science Letters 2024; Monash University news; phys.org; CNN; Eos |
 | Ring-forming asteroid 10.5 to 12.5 km across | Verified | Eos; Sci.News (script rounds to "about 12 km") |
 | 21 craters, all within 30° of equator, over 40 million years | Verified | Monash; phys.org; Eos ("between 485 and 443 million years ago") |
 | Over 70% of continental crust lies outside that band | Verified | Monash; Sci.News |
 | Hirnantian glaciation ~445 million years ago, one of the coldest periods in 500 million years | Verified | space.com; La Brújula Verde; Monash |
-| Earth's Roche limit for a fluid/rubble body ~18,000 km (18,381 km); NASA figure ~19,900 km | Verified. Script uses "about 18,000" | space.fandom Roche limit table; astronomicalreturns.com; skyatnightmagazine |
+| Earth's Roche limit for a fluid/rubble body ~18,000 km (18,381 km); NASA figure ~19,900 km | Verified. Measured from Earth's **center**, so the ring tops out ~11,600 km above the surface. Script now says so. | space.fandom Roche limit table; astronomicalreturns.com; skyatnightmagazine |
 | Rigid-body Roche limit ~9,500 km | Verified, not used in script | same |
 | Saturn's main rings ~10 to 20 m thick in most places | Verified | NASA Science; worldatlas; lumenlearning |
 | Saturn's rings mostly water ice (95%+, some models 99%) | Verified | Cornell/Cassini; NASA Cassini rings page |
@@ -223,12 +222,20 @@ The Moon is what's left of the last time Earth had a ring.
 | LEO orbital speed ~7 to 8 km/s; ~90 min orbit | Standard physics; ISS ~7.66 km/s, ~92 min | general reference |
 | Saturn's rings gone in ~100 million years | Verified (NASA "ring rain" estimate; range in literature is 100 to 300 million) | spacedaily; NASA |
 | Cities listed lie within 30° of equator | Verified: Lagos 6°N, Mumbai 19°N, Jakarta 6°S, Mexico City 19°N, Nairobi 1°S, Manila 14°N, Bogotá 4°N | atlas |
-| "Roughly 40 percent of humanity within ±30°" | Approximate. Tropics (±23.4°) hold ~40% of population; ±30° is higher, likely ~50%. **Safe as stated ("roughly 40 percent") since it undercounts. Could say "about half" if preferred.** | UN population estimates |
+| "Billions of people" within ±30° | Safe under any estimate. The earlier "roughly 40 percent" was unchecked and likely low, so it was dropped. | UN population estimates |
 | Moon at ~384,000 km (perigee 363,104 km) | Verified | Roche limit references |
-| Moon-forming impact ~4.5 billion years ago by Mars-sized body; debris disk; possibly coalesced within hours | Verified. "Hours" is a 2022 simulation result; older models say decades to millions of years. Script says "possibly in a matter of hours." | astronomy.com; astrobites |
-| "Ring forms within weeks" after breakup | Simplification. Tidal breakup is fast (hours); spreading into a full disk takes longer and varies by model. Consider "within months." | Ordovician study discussion; general ring dynamics |
-| "Lose most of what's up there within the first year" | Speculative consequence, flagged as scenario outcome, not a sourced figure | — |
+| Moon-forming impact ~4.5 billion years ago by Mars-sized body; debris disk coalesced into the Moon | Verified (canonical model). The 2022 "within hours" simulation forms the Moon directly, without a lasting disk, so it is no longer mixed in. | astronomy.com; astrobites |
+| "Ring forms within months" after breakup | Simplification. Tidal breakup is fast (hours); spreading into a full disk takes longer and varies by model. | Ordovician study discussion; general ring dynamics |
+| "Lose most of low orbit within the first year" | Speculative consequence, flagged as scenario outcome, not a sourced figure | — |
 
-### Two open items for the producer
-1. Segment 5's population figure: keep "roughly 40 percent" (safe undercount) or switch to "about half" (closer to ±30° truth).
-2. Segment 1's "within weeks": switch to "within months" if you want zero pushback from astronomy commenters.
+### Corrections made after review (October 2026)
+Errors fixed in both this script and the production manifest:
+1. **Roche limit distance.** It's measured from Earth's center, not the surface. The ring reaches ~11,600 km up, not 18,000.
+2. **GPS.** At 20,200 km it sits *beyond* the ring, not at its edge. Manifest block 26 rewritten (VO and two shots) so the phone no longer loses GPS. Weather losses are now polar weather satellites only; geostationary weather satellites are safe.
+3. **Launch plan.** "Launch far north, where the ring is thin from your angle" doesn't work: any orbit that ends up geostationary crosses the ring plane. Cut.
+4. **Closer.** "The *last* time Earth had a ring" contradicted the Ordovician ring; it's now "the *first* time". The "within hours" Moon model is dropped (see table).
+5. **Certainty.** "Almost certainly" / "this is not a guess" / "random hits don't cluster like that" softened to match a published hypothesis.
+6. **Ring particles.** They all orbit one way; it's the satellites that cross them.
+7. **Brightness non sequitur** (manifest block 10). It said the ring glows *because* Saturn's rings are bright. Now a comparison.
+
+Manifest blocks re-voiced: 1, 5, 7, 10, 18, 20, 26 (all kept at 22 to 23 words). Shots changed: block 26 shots 2 and 4.
