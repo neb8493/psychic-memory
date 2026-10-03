@@ -238,4 +238,4 @@ Errors fixed in both this script and the production manifest:
 6. **Ring particles.** They all orbit one way; it's the satellites that cross them.
 7. **Brightness non sequitur** (manifest block 10). It said the ring glows *because* Saturn's rings are bright. Now a comparison.
 
-Manifest blocks re-voiced: 1, 5, 7, 10, 18, 20, 26 (all kept at 22 to 23 words). Shots changed: block 26 shots 2 and 4.
+Manifest blocks re-voiced: 1, 5, 7, 10, 18, 20, 26 (blocks 10 and 18 trimmed to 20–21 words so their speech fits the 9.5 s limit). Shots changed: block 26 shots 2 and 4.

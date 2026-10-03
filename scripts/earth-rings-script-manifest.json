@@ -221,7 +221,7 @@
   {
    "n": 10,
    "arc_role": "build",
-   "vo_line": "Past sixty degrees the arch sits low. For comparison, Saturn's icy rings reflect about four times more sunlight than our own Moon does.",
+   "vo_line": "Past sixty degrees the arch sits low. Saturn's icy rings reflect about four times more sunlight than the Moon does.",
    "location": "glacier_valley",
    "through_line_state": "a low flat arch hugging the horizon",
    "shots": [
@@ -374,7 +374,7 @@
   {
    "n": 18,
    "arc_role": "build",
-   "vo_line": "The evidence here is real, because in two thousand twenty four a Monash University team examined twenty one craters from an ancient bombardment.",
+   "vo_line": "The evidence is real: in two thousand twenty four a Monash University team examined twenty one craters from an ancient bombardment.",
    "location": "science_lab",
    "through_line_state": "twenty one red dots in a belt on the desk globe",
    "shots": [
@@ -533,7 +533,7 @@
    "through_line_state": "the navigation shell sitting well beyond the ring's outer edge on the display",
    "shots": [
     "MEDIUM, static: Theo watches weather map screens flicker to grey, one after another.",
-    "ECU, macro: a phone on the console shows a weather app frozen on a grey 'no new data' card.",
+    "ECU, macro: a phone on the console shows a weather radar map frozen grey, a small wait icon spinning.",
     "CU, low angle: Theo's reflection in the dark screen as more dots wink out.",
     "WIDE, slow push-in: the wall display, low satellites sparking out inside the ring while a second shell of satellites far beyond its outer edge glows steady.",
     "MEDIUM, gentle drift: Theo sets the phone face down, the display holding."
