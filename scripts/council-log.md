@@ -7,6 +7,7 @@ so the panel can be tuned against real results.
 |---|---|---|---|---|---|---|---|---|---|---|
 | 2026-10-04 | Jack & Lexie's Big Day Out | v3 | 4 | 5 | 6 | 5 | 4 | 4.8 | Revise | Apply c1-c8, n3, n4 |
 | 2026-10-04 | Jack & Lexie's Big Day Out | v4 (pre round-2 edits) | 7 | 7 | 8 | 6 | 6 | 6.8 | Revise (edits only) | Chair applied the free round-2 edits; open items left to Ben |
+| 2026-10-04 | Jack & Lexie's Big Day Out | v4.1 | - | - | - | - | - | - | Chair: ready | o1 hold 1-hour loop until ep 2; o2 thumbnail built (A now, B needs a better Jack photo); o5 sunset cooled. Declined: o3 Jack ear regens, o4 own-voice VO |
 
 ## Results after publishing
 

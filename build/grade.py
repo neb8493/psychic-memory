@@ -49,6 +49,14 @@ def grade(a):
         blue = WALLBLUE * (L / (0.3 * 91 + 0.59 * 125 + 0.11 * 184))
         a = np.where(red[..., None], blue, a)
     if mode == "sunset":
+        # houses, fence, Lexie and Jack's tan all sit at hue ~30, so colour selection can't separate
+        # them. Cool the whole warm cast multiplicatively instead (black stays black, so Jack keeps his
+        # coat), then lift only the most saturated orange (the fence, s ~0.78; Lexie tops out ~0.61)
+        # toward yellow.
+        a = a * np.array([0.88, 0.98, 1.24], np.float32)
+        h, s, v = rgb_to_hsv(np.clip(a, 0, 255))
+        fence = (h > 20) & (h < 40) & (s > 0.70) & (v > 150)
+        a = np.where(fence[..., None], hsv_to_rgb(np.where(fence, h + 14, h), s, v), a)
         L = (0.3 * a[..., 0] + 0.59 * a[..., 1] + 0.11 * a[..., 2])[..., None]
         bright = np.clip((L - 150) / 40, 0, 1)                   # sky only, never the black dog
         w = SKYRAMP * bright * 0.85

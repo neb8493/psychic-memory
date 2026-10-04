@@ -323,7 +323,7 @@ unpublished video, "mostly" blue and yellow, and "no loud barking" (there is one
 **Title options (search keyword first, all under YouTube's 100-character limit):**
 1. Dog Cartoon: Jack & Lexie's Big Day Out | Calming Dog TV for Dogs Home Alone (76)
 2. Cartoon for Dogs to Watch: Jack & Lexie Go to the Park | Calming Music for Dogs Home Alone (90)
-3. 1-hour loop: 1 Hour of Dog TV: Jack & Lexie's Big Day Out | Calming Cartoon for Dogs Home Alone (82)
+3. 1-hour loop (held until episode 2): 1 Hour of Dog TV: Jack & Lexie's Big Day Out | Calming Cartoon for Dogs Home Alone (82)
 
 **Description, 8:00 episode (first two lines show before "more"):**
 ```
@@ -340,7 +340,7 @@ Chapters
 7:00 Bedtime
 
 Why we made it this way: dogs see blue and yellow far better than red and green, so most scenes
-stay in those colors (the walk home has a warm sunset). Slow, side-to-side motion is easy to follow, and the music is slow, soft
+stay in those colors. Slow, side-to-side motion is easy to follow, and the music is slow, soft
 piano and strings with a steady level.
 Jack gets anxious when we leave. Lexie barks about it. So we made them a cartoon.
 
@@ -359,17 +359,25 @@ Animated with AI tools from photos of our own two dogs. Music and voice are AI-g
 - Altered or synthetic content: **Yes.** The cold-open voice is an AI voice speaking as the owner,
   and the music is AI-generated.
 - End screen (episode only): the end-card text sits in the top third, so place the subscribe element
-  and one video element in the lower half over 7:52-8:00.
+  in the lower half over 7:52-8:00. Add a video element once episode 2 exists.
 
-**Thumbnail:** you already have the right one (job `340e027a-3897-4c89-9051-2be359f50f44`):
-Jack grinning with the ball, Lexie staring at it with comic longing, lower third clear.
-Add "DOG TV" in big yellow top-left and a small "real dogs" pill bottom-right, and
-swap the background to solid blue.
+**Thumbnail (built 2026-10-04, `thumbnails/`, made by `thumbnails/make_thumb.py`):**
+Art is a 16:9 recomposition of job `340e027a` on flat blue (Higgsfield job
+`9cbfc09e-6776-45c3-8e79-d2f1c0949a8c`): Jack grinning with the ball, Lexie gazing at it.
+"DOG TV" is set locally in Inter Display Black so it stays sharp at search-result size; the
+lower-right corner carries no text because YouTube puts the duration badge there.
+- `thumb_A.png`: cartoon plus a "REAL DOGS" pill. Use this one now.
+- `thumb_B.png`: adds small photo cards of the real dogs ("THE REAL JACK & LEXIE"). Lexie's
+  photo works; the only Jack photo on file is backlit, turned away and has someone standing
+  next to him, so swap in a bright, front-facing photo of Jack (`JACK_CROP` in the script) before
+  using B. Test A against B with YouTube's thumbnail Test & Compare once B has a good Jack photo.
 
 **Upload plan (revised):**
 - 8:00 episode with chapters and end card. This is the one you promote.
-- One 1-hour loop built from the loop unit (no voiceover, no title band, no chapter or end cards,
-  audio and picture join seamlessly).
+- **Hold the 1-hour loop until episode 2 is published** (owner's decision after council round 2).
+  It is built (`loop_unit` x 8, no voiceover, title band, chapter or end cards, seamless join),
+  but a 61-minute loop of a channel's only episode, uploaded beside it, is what the monetization
+  review flags. When episode 2 exists, build the hour from both episodes instead.
 - Hold the 4-hour and 12-hour versions until there are three or more episodes to compile.
   Several long loops of one file on a new channel is the repeated-content pattern YouTube's
   July 2025 "inauthentic content" monetization rule targets.
@@ -618,7 +626,7 @@ How screen time longer than the clip is filled, with no still frames anywhere:
 `jack-and-lexie-big-day-out-v4.mp4`: 8:00.000, 1920x1080, 24 fps, H.264 + AAC 192k, -16.0 LUFS,
 loudness range 2.2 LU, peak -1.9 dBFS. `jack-and-lexie-1-hour-loop-v4.mp4`: 8 x the 7:40 loop unit
 (61:20), no voiceover, title band, chapter or end cards; picture and audio join seamlessly.
-Higgsfield media: episode 17f659b0-112e-4065-a6ff-564cc572e3ac, loop unit 5046f043-078c-42c5-b4ad-b5920d9d6672
+Higgsfield media: episode 6e8a0ce8-4f97-4f08-9a39-98b940b687e2 (v4.1, cooled sunset; supersedes 17f659b0), loop unit 5046f043-078c-42c5-b4ad-b5920d9d6672
 (the 61:20 file is the loop unit x 8 and is too large for the Higgsfield uploader).
 Built locally by `build/build_v4.py` (video), `build/mix_v4.py` (audio) and `build/grade.py`
 (dog-vision colour grade) from the v3 source clips plus these regenerations:
@@ -633,13 +641,13 @@ Built locally by `build/build_v4.py` (video), `build/mix_v4.py` (audio) and `bui
 Other v4 changes: chapter cards dissolve from/to the neighbouring frames (no black dip); the title band
 fades before the first card; end card says "back soon" and sits in the top third for end-screen
 elements; store red walls recoloured blue and greens folded to yellow-olive (store, porch); sunset
-gets a blue upper sky. Audio: Lyria 3.5 bed (Picsart job 46aa9c4f) arranged per chapter with every
+is cooled (houses cream and blue, fence yellow, blue upper sky; a multiplicative white balance, so
+Jack's black coat stays black). Audio: Lyria 3.5 bed (Picsart job 46aa9c4f) arranged per chapter with every
 join under a card, compressed; ElevenLabs SFX (flow tLMPHtNVgCNcNBcMU1r6): park ambience 1:32-7:00,
 crickets from 7:02, soft yip ~0:09.5, toy squeak ~4:55; voiceover ducks the bed by 6 dB.
 
 Known and left open (owner's call): Jack's ears flip upright in some original v3 shots (0:16, 1:24,
-1:56, 3:28, 3:40, 6:52) and he grins with teeth upside-down at 5:34; Lexie's ears perk at 3:08;
-the 6:00 sunset plates stay warm orange.
+1:56, 3:28, 3:40, 6:52) and he grins with teeth upside-down at 5:34; Lexie's ears perk at 3:08.
 
 **Previous version, fully animated (v3).** `jack-and-lexie-big-day-out-8min-v3-animated.mp4`:
 8:00.000, 1920x1080, 24 fps, H.264 + AAC, 150 MB.
